@@ -8,7 +8,7 @@ library(stringr)
 library(tidyverse)
 
 #load bulk data
-load("mat_mr.Rdata")
+load("mat_mr.Rda")
 
 #construct corpus
 corp_mr <- quanteda::corpus(mat_mr)
