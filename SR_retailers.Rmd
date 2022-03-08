@@ -1,0 +1,87 @@
+---
+title: "Analysis of sustainability disclosure of food retailers in Europe"
+author: "Johannes W.H. van der Waal"
+date: "7-3-2022"
+output:   html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(quanteda)
+library(tidyverse)
+```
+
+# Objective
+
+- objectively chart the sustainability themes of food retailers
+- identify relevant topics that we must not miss
+- match our sustainability focus areas with those of retailers
+
+# Method
+```{r stats1, echo=FALSE, message = FALSE}
+
+#load bulk data
+load("mat_mr.Rdata")
+
+library(readxl)
+company_names <- read_excel("company_names.xlsx") 
+
+#construct corpus
+corp_mr <- quanteda::corpus(mat_mr)
+
+#make corpus subset based on language
+corp_en <- corpus_subset(corp_mr, language == "EN")
+docvars <- docvars(corp_en)
+
+# number of English reports
+nrow(docvars)
+```
+- Text analysis of `r nrow(docvars)` sustainability reports.
+- Non-English reports were converted to English language with Deepl.com
+- Supervised and non-supervised thematic analysis 
+
+```{r stats2, eval = TRUE, echo = FALSE}
+# retrieve text stats by company
+load("raw_stats.Rda")
+clean_stats <- raw_stats %>% 
+  mutate(company = substr(document, 12,19)) %>%
+  left_join(.,company_names) 
+```
+## Description of the reports
+```{r plot, eval=TRUE, echo = FALSE, message = FALSE}
+library(ggthemes)
+library(ggrepel)
+#determine order og high to low sentence scores for ggplot
+order <- clean_stats %>% 
+  group_by(retailer) %>%
+  summarize(zinnen = sum(sents), country= as.factor(country), retailer = as.factor(retailer)) %>% 
+  unique() %>%
+  group_by(country) %>%
+  summarize(z = sum(zinnen)) %>%
+  arrange(desc(z)) %>%
+  pull(country)
+
+p <- clean_stats %>% 
+  group_by(retailer) %>%
+  summarize(zinnen = sum(sents), country= as.factor(country), retailer = as.factor(retailer)) %>%
+  unique() %>%
+  ggplot(aes(reorder(country, -zinnen), zinnen, label = retailer, fill = retailer)) +
+  geom_bar(stat = "identity") +
+  geom_text(size = 3, position = position_stack(vjust = 0.5)) +
+  ggtitle("Number of sentences in food retail sustainability reports per country") +
+  xlab("country") + ylab("Number of sentences") +
+  theme_economist() 
+p + theme(legend.position="none") +
+  scale_x_discrete(limits=order) #this puts the columns in the order of the highest to lowest
+  coord_flip() 
+
+```
+
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
