@@ -1,6 +1,7 @@
-dir_to_ignore/docs
-dir_to_ignore/vis
+docs/
+vis/
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+  
