@@ -41,7 +41,9 @@ words <- c("sek", "eur", "ica", "coop", "colruyt", "axfood", "ahold", "delhaize"
            "transgourmet", "gmbh", "g.m.b.h.", "esselunga", "milan",
            "euro", "naturama", "della", "banco", "alimentar", "co-operative",
            "zurich", "basel", "bern", "franc", "billion", "italia",
-           "april", "januari", "u.", "adriatico")
+           "april", "januari", "u.", "adriatico", "belgium", 
+           "france", "swiss", "belgian", "virya","norgesgruppen",
+           "baltic", "kesko")
 cl <- append(cl, words)
 
 
@@ -82,7 +84,21 @@ df_lda <- as.data.frame(lda$theta) %>%
 b2 <- Sys.time()
 t2 <- b2-a2
 t2
-topics(lda, 10)
+seededlda::terms(lda)
+max.col(lda$theta)
+
+#write results to data frame
+theta <- as.data.frame(lda$theta)
+theta <- tibble::rownames_to_column(theta, "document")
+theta <- theta %>% mutate(company = substr(document, 12,19),
+       year = substr(document, 1,4),
+       type = substr(document, 6,7)) %>%
+  left_join(., company_names) 
+theta %>%
+  pivot_longer(., cols = topic1:topic9, names_to = "topic", values_to = "theta") %>%
+  ggplot(aes(topic, theta, fill = country)) +
+  geom_col()
+#https://tm4ss.github.io/docs/Tutorial_6_Topic_Models.html
 
 
 
@@ -105,5 +121,5 @@ df_long <- df_slda %>% mutate(company = substr(document, 12,19),
   select(-other) %>%
   pivot_longer(., cols = sdg1:sdg17, names_to = "sdg", values_to = "theta")
 
-
+library(sentimentr)
 

@@ -15,5 +15,5 @@ fl <- list.files('./docs/')
 write.csv(fl, "filelist.txt")
 length(fl)
 
-save(mat_mr, file = "mat_mr.Rdata")
+save(mat_mr, file = "mat_mr.Rda")
 write.csv(mat_mr, "sr_retail.txt")

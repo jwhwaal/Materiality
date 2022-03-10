@@ -1,7 +1,7 @@
-eu <- c("sdg", "agenda", "sustainable", "development")
-toks_inside <- tokens_keep(toks_sdg, pattern = eu, window = 10)
-toks_inside <- tokens_remove(toks_sdg, pattern = eu) # remove the keywords
-toks_outside <- tokens_remove(toks_sdg, pattern = eu, window = 10)
+sdg <- c("sdg", "agenda", "sustainable", "development")
+toks_inside <- tokens_keep(toks_sdg, pattern = sdg, window = 10)
+toks_inside <- tokens_remove(toks_sdg, pattern = sdg) # remove the keywords
+toks_outside <- tokens_remove(toks_sdg, pattern = sdg, window = 10)
 
 
 dfmat_inside <- dfm(toks_inside)
