@@ -1,8 +1,12 @@
 ---
 title: "Analysis of sustainability disclosure of food retailers in Europe"
 author: "Johannes W.H. van der Waal"
-date: "7-3-2022"
-output:   html_document
+date: "14-3-2022"
+output:
+  pdf_document: default
+  word_document: default
+  html_document: default
+always_allow_html: true
 ---
 
 ```{r setup, include=FALSE}
@@ -18,6 +22,10 @@ library(tidyverse)
 - match our sustainability focus areas with those of retailers
 
 # Method
+Using *quanteda*, we perform text analysis of `r nrow(docvars)` sustainability reports of European food retailers over 2020 (published 2021) or the closest year we can get. Some of the reports are in other languages than English. These were machine-translated into English using Deepl.com. Then we perform some supervised and non-supervised text analyses.
+Some of the sustainability reports were annual reports with a section on sustainability, so called "integrated" reports. 
+OF all reports the document variables of the retailer publishing, the year of publication and the type (SR = sustainability report, AR = annual report, GC = Global Compact communication) were recorded.
+
 ```{r stats1, echo=FALSE, message = FALSE}
 
 #load bulk data
@@ -34,11 +42,9 @@ corp_en <- corpus_subset(corp_mr, language == "EN")
 docvars <- docvars(corp_en)
 
 # number of English reports
-nrow(docvars)
+#nrow(docvars)
 ```
-- Text analysis of `r nrow(docvars)` sustainability reports.
-- Non-English reports were converted to English language with Deepl.com
-- Supervised and non-supervised thematic analysis 
+The documents were converted from pdf to text and stored in a corpus (library or collection of documents). The corpus was further preprocessed, by removing numbers, spaces, various frequently appearing words, such as the names of the retailers, lower cased, stopwords were removed, and finally stemmed. The tokenized corpus was converted to a document-feature matrix (dfm). The dfm is the basis for further analysis.
 
 ```{r stats2, eval = TRUE, echo = FALSE}
 # retrieve text stats by company
@@ -48,7 +54,9 @@ clean_stats <- raw_stats %>%
   left_join(.,company_names) 
 ```
 ## Description of the reports
-```{r plot, eval=TRUE, echo = FALSE, message = FALSE}
+The following graph shows the number of sentences in the reports per retailer.
+
+```{r plot, eval=TRUE, echo = FALSE, message = FALSE, warnings = FALSE}
 library(ggthemes)
 library(ggrepel)
 #determine order og high to low sentence scores for ggplot
@@ -68,28 +76,43 @@ p <- clean_stats %>%
   ggplot(aes(reorder(country, -zinnen), zinnen, label = retailer, fill = retailer)) +
   geom_bar(stat = "identity") +
   geom_text(size = 3, position = position_stack(vjust = 0.5)) +
-  ggtitle("Number of sentences in food retail sustainability reports per country") +
+  ggtitle("Number of sentences in SR of food retail per country") +
   xlab("country") + ylab("Number of sentences") +
   theme_economist() 
-p + theme(legend.position="none") +
-  scale_x_discrete(limits=order) #this puts the columns in the order of the highest to lowest
-  coord_flip() 
+suppressWarnings(print(p + theme(legend.position="none") +
+  scale_x_discrete(limits=order)  #this puts the columns in the order of the highest to lowest
+))
 
 ```
+## Topic Modeling
+We can perform an unsupervised topic modeling procedure on the corpus using Latent Dirichlet Allocation. This allows to automatically extract a number of topics accross documents.
 
-`
-You can also embed plots, for example:
+\newpage
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+### Latent Dirichlet Allocation (LDA)
+LDA assumes that every document in a corpus is a random mixture of latent topics. Every topic is considered as a mixture or distribution of words. LDA is an algorithm that tries to find the mixture of words that best defines a set number of topics, while at the same time estimating the mixture of topics that describes a document. LDA computes for every word the probability that it belongs to a certain topic (beta) and the estimated probability that a word in a document belongs to a certain topic (theta). Retrieving the words with the highest thetas allows to characterize the topic.
+
+
+```{r, echo=FALSE, out.width="40%", fig.cap="LDA model"}
+knitr::include_graphics("LDA.png")
 ```
+In the above figure of the LDA algorithm ("plate model") denote:
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-```{r lda, echo=FALSE}
+- alpha - the per-document topic distributions,
+- beta  - the per-topic word distribution,
+- theta - the topic distribution for document m,
+- psi   - the word distribution for topic k,
+- z     - the topic for the n-th word in document m, and
+- w     - the specific word
+
+### Applying LDA to the food retailer sustainability report corpus
+
+Using the package *seededlda* an LDA model was estimated, using 9 topics. This number was chosen somewhat arbitrarily but appeared to give a reasonable resolution and discrimination between topics.
+
+```{r lda, echo=FALSE, warning=FALSE, results = FALSE}
 library(quanteda)
 library(readtext)
 library(quanteda.textstats)
-library(quanteda.corpora)
 library(seededlda)
 library(topicmodels)
 library(stringr)
@@ -137,27 +160,84 @@ toks_nostop <- corp_mr_par %>%
 # base dfm 
 dfm <- dfm(toks_nostop) %>%dfm_remove(pattern = cl)
 dfm_stem <- dfm_wordstem(dfm)
+```
 
-# LDA
-a2 <- Sys.time()
-lda <- textmodel_lda(dfm_stem, k = 9, verbose = T, alpha = 1)
+```{r lda loader, echo=FALSE, warnings = FALSE, results = FALSE}
+# read LDA
+load("lda.Rdata") #load previously computed lda-model to avoid confusion of topics
 summary(lda)
 df_lda <- as.data.frame(lda$theta) %>% 
   tibble::rownames_to_column(., "document")
-b2 <- Sys.time()
-t2 <- b2-a2
-t2
 
-
-
-# use LDAvis to explore topics
-library(LDAvis)
-library(servr)
-json <- createJSON(phi = lda$phi,
-                   theta = lda$theta, 
-                   doc.length = quanteda::ntoken(dfm_stem),
-                   vocab = quanteda::featnames(dfm_stem), 
-                   term.frequency = quanteda::featfreq(dfm_stem))
-serVis(json, out.dir = 'vis', 
-       open.browser = T)
 ```
+
+
+```{r lda_output, fig.cap = "Table 1. SR sentences per retailer", echo = FALSE, warning=FALSE }
+# compute document variables
+library(kableExtra)
+nt <- ntoken(dfm_stem) %>% as.data.frame() %>% rownames_to_column() 
+colnames(nt) <- c("document", "number")
+nt <- nt %>% mutate(company = substr(document, 12,19)) %>%
+  left_join(.,company_names) 
+nt %>% group_by(country, retailer) %>% summarize(no_of_tokens = sum(number)) %>% 
+  arrange(desc(no_of_tokens)) %>% kable(., booktabs = TRUE) %>%
+  kable_styling(font_size = 11, bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+The following table  shows the ten words with the highest theta's per topic. These characterize the topic.
+
+```{r terms, fig.cap = "Table 2. LDA terms per topic", echo=FALSE }
+library(readr)
+terms <- read_csv("terms.txt")
+kable(head(terms, 10), booktabs = TRUE) %>%
+  kable_styling(font_size = 10)
+
+```
+
+From the topic words we can derive a more descriptive name for the topic. Then we can plot the topics against the retailers. It is to note that the theta's of all the topics together sum to 1. So whether the retailer in question publishes a large report or a small one, the theta's give a relative probability of the presence of the topics in the document, irrespective of the document size. So there is no weighting for document size or the importance that subjects take relative to other documents. 
+
+```{r lda_plot, echo=FALSE}
+#write results to data frame
+theta <- as.data.frame(lda$theta)
+theta <- tibble::rownames_to_column(theta, "document")
+theta <- theta %>% mutate(company = substr(document, 12,19),
+       year = substr(document, 1,4),
+       type = substr(document, 6,7)) %>%
+  left_join(., company_names) %>%
+rename(., "social_supply_chain" = topic7,
+       "customer_store" = topic8,
+       "waste_emission" = topic1,
+       "employee_relations" = topic2,
+       "finance_accounting" = topic4,
+       "charity" = topic6,
+       "governance" = topic9,
+       "risk" = topic5,
+       "product_brand_certification" = topic3)
+#theta[which(is.na(theta$retailer)==TRUE),]
+
+theta %>% select(-c("year", "type")) %>%
+  pivot_longer(., cols = 2:10, names_to = "topic", values_to = "theta") %>%
+  group_by(country, topic) %>%
+  summarize(value = mean(theta)) %>%
+  ggplot(aes(country, value)) +
+  geom_col() +
+  facet_wrap(vars(topic)) +
+  coord_flip()
+#https://tm4ss.github.io/docs/Tutorial_6_Topic_Models.html
+```
+
+Likewise, we can check if there are marked differences in topics between types of reports, notably integrated or annual reports and sustainability reports.
+
+```{r report_type, echo=FALSE}
+theta %>% select(-c("year")) %>%
+  filter(type %in% c("AR", "SR")) %>%
+  pivot_longer(., cols = 2:10, names_to = "topic", values_to = "theta") %>%
+  group_by(type, topic) %>%
+  summarize(value = mean(theta)) %>%
+  ggplot(aes(type, value)) +
+  geom_col() +
+  facet_wrap(vars(topic)) +
+  coord_flip()
+```
+
+If we had a time series of sustainability reports, it would be possible to visualize temporal changes in topics.

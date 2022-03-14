@@ -20,9 +20,13 @@ lapply(names(documents), function(x){
 #make corpus subset based on language
 corp_en <- corpus_subset(corp_mr, language == "EN")
 
+
 #split in paragraphs
 corp_mr_par <- corp_en %>%
-  corpus_segment(pattern = "•")
+  corpus_reshape(.,to = "paragraphs")
+
+head(corp_mr_par)
+corp_mr_par %>% as_tibble() %>% write.csv(., "corpus_en.txt")
 docvars(corp_mr_par) %>% group_by(company, year) %>% summarize()
 
 #make a list of unique company designators
@@ -33,7 +37,9 @@ write_excel_csv(company_list, "companylist.txt")
 library(readxl)
 company_names <- read_excel("company_names.xlsx") 
 cl <- company_names$retailer %>% tokens() %>% tokens_split() %>% unlist()
-words <- c("sek", "eur", "ica", "coop", "colruyt", "axfood", "ahold", "delhaize",
+words <- c("*-time", "*-timeUpdated", "GMT", "BST", "*.com", "ltd", "group", 
+           "holdings", "inc", "business","sek", "eur", "ica", "coop", 
+           "colruyt", "axfood", "ahold", "delhaize",
            "million", "appendix", "see", "axfood's", "gruppen's","co-op", "asda",
            "aldi", "per", "year", "also", "can", "use", "chf", "finland",
            "switzerland", "delhaize's", "years", "euro", "sweden", "kesko",
@@ -53,9 +59,7 @@ toks_nostop <- corp_mr_par %>%
          remove_numbers = TRUE, remove_url = TRUE) %>% 
   tokens_select(min_nchar = 3) %>%
   tokens_remove(stopwords("en")) %>%
-  tokens_remove(pattern = cl) %>%
-  tokens_remove(c("*-time", "*-timeUpdated", "GMT", "BST", "*.com", "ltd", "group", 
-                  "holdings", "inc", "business"))  
+  tokens_remove(pattern = cl) 
 
 
 # apply sdg dictionary to tokens object
@@ -84,8 +88,18 @@ df_lda <- as.data.frame(lda$theta) %>%
 b2 <- Sys.time()
 t2 <- b2-a2
 t2
-seededlda::terms(lda)
-max.col(lda$theta)
+terms <- seededlda::terms(lda) %>% as_tibble()
+write_excel_csv(terms, "terms.txt")
+save(lda, file = "lda.Rdata")
+
+# compute document variables
+nt <- ntoken(dfm_stem) %>% as.data.frame() %>% rownames_to_column() 
+colnames(nt) <- c("document", "number")
+nt <- nt %>% mutate(company = substr(document, 12,19)) %>%
+  left_join(.,company_names) 
+nt %>% group_by(retailer) %>% summarize(no_of_tokens = sum(number))
+
+
 
 #write results to data frame
 theta <- as.data.frame(lda$theta)
@@ -93,12 +107,47 @@ theta <- tibble::rownames_to_column(theta, "document")
 theta <- theta %>% mutate(company = substr(document, 12,19),
        year = substr(document, 1,4),
        type = substr(document, 6,7)) %>%
-  left_join(., company_names) 
-theta %>%
-  pivot_longer(., cols = topic1:topic9, names_to = "topic", values_to = "theta") %>%
-  ggplot(aes(topic, theta, fill = country)) +
-  geom_col()
+  left_join(., company_names) %>%
+rename(., "social_supply_chain" = topic7,
+       "customer_store" = topic8,
+       "waste_emission" = topic1,
+       "employee_relations" = topic2,
+       "finance_accounting" = topic4,
+       "charity" = topic6,
+       "governance" = topic9,
+       "risk" = topic5,
+       "product_brand_certification" = topic3)
+
+#theta[which(is.na(theta$retailer)==TRUE),]
+
+p1 <- theta %>% select(-c("year", "type")) %>%
+  pivot_longer(., cols = 2:10, names_to = "topic", values_to = "theta") %>%
+  group_by(retailer, topic) %>%
+  summarize(value = mean(theta)) %>%
+  ggplot(aes(retailer, value)) +
+  geom_col() +
+  facet_wrap(vars(topic)) +
+  coord_flip()
+p1
 #https://tm4ss.github.io/docs/Tutorial_6_Topic_Models.html
+
+p2 <- theta %>% select(-c("year")) %>%
+  filter(type %in% c("AR", "SR")) %>%
+  pivot_longer(., cols = 2:10, names_to = "topic", values_to = "theta") %>%
+  group_by(type, topic) %>%
+  summarize(value = mean(theta)) %>%
+  ggplot(aes(type, value)) +
+  geom_col() +
+  facet_wrap(vars(topic)) +
+  coord_flip()
+p2
+
+
+
+
+
+
+
 
 
 
