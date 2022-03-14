@@ -63,6 +63,7 @@ topic.docs <- sort(topic.docs, decreasing = T)
 topdoc <- names(topic.docs)[1]
 corp[docnames(corp)==topdoc]
 
-corp[company=="COLRUYT#"]
-
+head(corp_mr_par)
+corp[docvars(corp_mr_par)$year==2019]
+docvars(corp_mr_par)
 

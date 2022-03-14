@@ -69,9 +69,7 @@ toks_sdg <- tokens_keep(toks_nostop, pattern = dict, window = 3)
 # base dfm 
 dfm <- dfm(toks_nostop) %>%dfm_remove(pattern = cl)
 head(dfm, 25)
-# sdg dfm
-dfm_s <- dfm_lookup(dfm, dict) 
-head(sdg_df,25)
+
 dfm_stem <- dfm_wordstem(dfm)
 
 #LDA model
@@ -79,18 +77,6 @@ dfm_stem <- dfm_wordstem(dfm)
 #https://www.youtube.com/watch?v=4YyoMGv1nkc
 
 
-# LDA
-a2 <- Sys.time()
-lda <- textmodel_lda(dfm_stem, k = 9, verbose = T, alpha = 1)
-summary(lda)
-df_lda <- as.data.frame(lda$theta) %>% 
-  tibble::rownames_to_column(., "document")
-b2 <- Sys.time()
-t2 <- b2-a2
-t2
-terms <- seededlda::terms(lda) %>% as_tibble()
-write_excel_csv(terms, "terms.txt")
-save(lda, file = "lda.Rdata")
 
 # compute document variables
 nt <- ntoken(dfm_stem) %>% as.data.frame() %>% rownames_to_column() 
@@ -100,7 +86,7 @@ nt <- nt %>% mutate(company = substr(document, 12,19)) %>%
 nt %>% group_by(retailer) %>% summarize(no_of_tokens = sum(number))
 
 
-
+load("lda.Rdata")
 #write results to data frame
 theta <- as.data.frame(lda$theta)
 theta <- tibble::rownames_to_column(theta, "document")
@@ -143,14 +129,6 @@ p2 <- theta %>% select(-c("year")) %>%
 p2
 
 
-
-
-
-
-
-
-
-
 # use LDAvis to explore topics
 library(LDAvis)
 library(servr)
@@ -170,5 +148,25 @@ df_long <- df_slda %>% mutate(company = substr(document, 12,19),
   select(-other) %>%
   pivot_longer(., cols = sdg1:sdg17, names_to = "sdg", values_to = "theta")
 
-library(sentimentr)
+# do dictionary searches 
 
+# sdg dfm
+toks_nostop_comp <- toks_nostop %>% tokens_compound(pattern = "glob")
+
+dfm_s <- dfm(toks_nostop_comp) %>% dfm_lookup(., dict) 
+head(dfm_s,25)
+dfm_sdg <- dfm_s %>% convert(., to = "data.frame")
+
+sdg <- dfm_sdg %>% pivot_longer(., cols = sdg01:gc, names_to = "theme", values_to = "no_of_words") %>%
+  mutate(company = substr(doc_id, 12,19),
+         year = substr(doc_id, 1,4),
+         type = substr(doc_id, 6,7)) %>%
+  left_join(.,company_names)
+p3 <- sdg %>% ggplot(aes(retailer, no_of_words, fill = theme)) +
+  geom_col()
+p3 + coord_flip()
+
+
+p4 <- sdg %>% ggplot(aes(country, no_of_words)) +
+  geom_col()
+p4 + coord_flip() + facet_wrap(vars(theme))
