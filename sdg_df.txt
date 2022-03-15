@@ -1,0 +1,1453 @@
+﻿"doc_id","text","year","type","language","company","pattern"
+"2019_SR_EN_ALDINORD.pdf.1","GOURMETS –
+                                                                                                                    ALDI FRANCE
+                                                                                            In the land of gourmets, ALDI France stocks the shelves
+                                                                                       with a growing number of sustainable and regional products,                                                                 100%
+                                                                                         with an emphasis on high quality at affordable ALDI prices.                                                  BEE FRIENDLY PRODUCTS
+                                                                                                                                                                                                              By the end of 2021,
+                                                                    ALDI France is growing, the stores are undergoing
+                                                                                                                                                                                                       we plan to have switched
+                                                                    extensive modernisation, and we are raising
+                                                                                                                                                                                                 to 100% BEE FRIENDLY-certified
+                                                                    interest in our products by improving customer
+                                                                    relationship management and social media                                                                                         European apples and pears
+                                                                    management. We have boosted brand awareness                                                                                          and are working on the
+                                                                    among younger customers, increased social                                                                                    introduction of further products.
+                                                                    media followers and expanded our offline
+                                                                    communication.
+                                                                    We demand particularly strict standards from
+                                                                                                                                                                                                                         0
+                                                                    our suppliers and aim to go beyond the legal
+                                                                    requirements. As part of our commitment
+                                                                    to protecting the environment, we support                  in other words, the meat comes from animals
+                                                                    organisations such as BEE FRIENDLY. This                   born, raised and slaughtered in France. In
+                                                                                                                                                                                                                 BATTERY EGGS
+                                                                    alliance promotes agricultural practices designed          addition, the Pays Gourmand own brand denotes
+                                                                    to protect bees and their ecosystem. In 2019, we           products made according to traditional French
+                                                                                                                                                                                                With our National Animal Welfare
+                                                                    participated again in Think Fish Week (Semaine             recipes, produced in the region where the recipe
+                                                                    de la pêche responsable), which was spearheaded            originated, with the main ingredients sourced in                  Purchasing Policy, we underline
+                                                                    by the Marine Stewardship Council (MSC) and                France. In further efforts to provide transparency                     our goal of the prohibition
+                  ALDI France in profile
+                                                                    the Aquaculture Stewardship Council (ASC). We              on nutritional value to customers, we will                                of battery eggs by 2020
+          Regional companies                        13              expanded our organic product ranges from 151 to            introduce the first products with Nutri-Score                            for processed products,
+                                                                    223 items in 2019. Under the own brand BON &               labelling in 2020. We are also extending the ALDI
+          Stores                                  870                                                                                                                                                and by 2025 for fresh eggs.
+          Total ALDI employees                 10,070               VÉG, we offer vegetarian and vegan products.               Transparency Code (ATC), for own-brand products
+          Year of market entry                   1988
+                                                                                                                               in France that contain at least three per cent meat.
+                                                                    Regional products play an even more significant
+          Website                           www.aldi.fr
+                                                                    role in France, with 99 per cent of our fresh and
+          Progress on national goals 2019 →                         frozen meat already sourced from French farms;",2019,"SR","EN","ALDINORD","TRUE"
+"2020_AR_EN_AHOLDDE1.pdf.1","and fair view of the assets,
+  liabilities, financial position and profit or loss of the Company and the undertakings included in the      This Annual Report, including the 2020 financial statements, which are audited by
+  consolidation taken as a whole.                                                                             PricewaterhouseCoopers Accountants N.V., has been presented to the Supervisory Board.
+• The management report included in this Annual Report gives a",2020,"AR","EN","AHOLDDE1","TRUE"
+"2020_AR_EN_AHOLDDE1.pdf.2","and fair view of the position of the      The 2020 financial statements and the independent auditor’s report relating to the audit of the 2020
+  Company and the undertakings included in the consolidation taken as a whole as of January 3, 2021,          financial statements were discussed with the Audit and Finance Committee in the presence of the
+  and of the development and performance of the business for the financial year then ended.                   Management Board and the external independent auditor. The Supervisory Board recommends that the
+                                                                                                              General Meeting of Shareholders adopt the 2020 financial statements included in this Annual Report
+• The management report includes a description of the principal risks and uncertainties that the              and recommends the proposal to pay a cash dividend for the financial year 2020 of €0.90 per common
+  Company faces.                                                                                              share. An amount of €0.50 per common share was paid as interim dividend on August 27, 2020. The
+                                                                                                              remaining amount of €0.40 per common share shall be payable on April 29, 2021.
+Annual declaration on internal risk management and control systems
+The Management Board, as required by section 1.4.3 of the Dutch Corporate Governance Code,                    Supervisory Board
+makes the following declaration:                                                                               Peter Agnefjӓll (Chair)
+The Management Board is responsible for establishing and maintaining adequate internal risk                    Bill McEwan (Vice Chair)
+management and control systems. Such systems are designed to manage rather than eliminate the risk             René Hooft Graafland
+of failure to achieve important business objectives, and can only provide reasonable and not absolute          Dominique Leroy
+assurance against material misstatement or loss. This report provides sufficient insights into any
+significant deficiencies in the effectiveness of the internal risk management and control systems.             Ben Noteboom
+Management is not aware of any critical failings of these systems during 2020.                                 Mary Anne Citrino
+                                                                                                               Katie Doyle
+This report includes those material risks and uncertainties that are relevant to the expectation of the
+Company’s continuity for the period of twelve months after the preparation of the report.                      Helen Weir
+                                                                                                               Frank van Zanten
+With respect to financial reporting based on the current state of affairs, it is justified that the financial
+reporting is prepared on a going concern basis and management has assessed whether the risk
+                                                                                                                                                                                    Ahold Delhaize Annual Report 2020 125",2020,"AR","EN","AHOLDDE1","TRUE"
+"2020_AR_EN_AHOLDDE1.pdf.3","business performance.
+For incentive purposes, we look at operating cash flow to reflect the",2020,"AR","EN","AHOLDDE1","TRUE"
+"2020_AR_EN_AHOLDDE1.pdf.4","business performance of our operations.
+In case of unforeseen or unusual circumstances occurring during the performance period that have an impact on the performance of
+the incentive plan as assessed at the end of the performance period, the Supervisory Board can consider an adjustment, in accordance
+with the principles of reasonableness and fairness.
+                                                                                                                                                                                                          Ahold Delhaize Annual Report 2020 134",2020,"AR","EN","AHOLDDE1","TRUE"
+"2020_AR_EN_AHOLDDE1.pdf.5","business performance.
+In case of unforeseen or unusual circumstances occurring during the performance period that have an impact on the performance of the incentive plan as assessed at the end of the performance period, the Supervisory Board may consider an adjustment, in accordance with
+the principles of reasonableness and fairness.
+With respect to EPS growth specifically, planned or anticipated corporate events occurring during the performance period, including share buybacks, transactions, and M&A activity, that may, positively or negatively, affect EPS performance, are always factored into the
+performance targets. In case of a significant unplanned share buyback that was not taken into the budget, an adjustment will be made to ensure that EPS performance for incentive purposes is not positively affected.
+                                                                                                                                                                                                                                      Ahold Delhaize Annual Report 2020 137",2020,"AR","EN","AHOLDDE1","TRUE"
+"2020_AR_EN_AHOLDDE1.pdf.6","market value and they rejected the external valuation
+report as, in their view, the valuation report is not based on at arm’s length principles. Although the
+                                                                                                                                                                                           Ahold Delhaize Annual Report 2020 212",2020,"AR","EN","AHOLDDE1","TRUE"
+"2020_AR_EN_AHOLDDE1.pdf.7","to our values of integrity and
+care.
+ Performance indicator description1                                                                         2020             2019
+ Number of injuries that result in lost days per 100 full-time equivalents2                                 2.0              2.1
+ Occupational illness frequency rate3                                                                     0.04              0.17
+1 Safety at work data excludes offices.
+2 2019 and 2020 data includes bol.com, Etos, Gall & Gall and Peapod.
+3 2019 data excludes Alfa Beta, Delhaize Belgium. 2020 data excludes Alfa Beta, Delhaize Belgium and Delhaize Serbia. 2019 and
+  2020 data includes Etos and Gall & Gall.
+How we performed
+In 2020, the number of injuries that resulted in lost days decreased by 6% to 2.0 injuries per 100 full-
+time equivalents. While COVID-19 put additional pressure on our brands, associate health and safety
+remained a top priority and we were able to decrease both the rate of lost days due to accidents and
+the occupational illness frequency rate.
+The safety metric was positively impacted by increased working hours as well as additional measures
+put in place to help front-line associates stay healthy. The retail locations reduced the rate of lost work
+days due to a strong safety focus and operational changes through the year, including reduced
+operating hours (based on local mandates) and temporary closure of some store production
+departments. Increased activity and product volume in distribution centers resulted in increased injuries
+in some facilities. COVID-19 cases are not included in the reported data and, therefore, did not impact
+performance on these metrics.
+Our brands continue to prioritize integrating everyday health and safety measures into the workplace.
+For example, at Delhaize Belgium, a performance management dashboard has enabled the brand to
+take a proactive rather than reactive approach to associate safety.
+Occupational illness frequency rate decreased significantly by 0.13 points to 0.04 illnesses per one
+million hours worked. The basis for the decline in occupational illnesses is consistent with more
+personal protective equipment usage. Many occupational illness exposures can be reduced with the
+use of personal protective equipment such as masks and gloves.
+                                                                                                                                                                                                        Ahold Delhaize Annual Report 2020 235",2020,"AR","EN","AHOLDDE1","TRUE"
+"2020_AR_EN_AHOLDDE1.pdf.8","Accountants, a regulation with respect to independence) and other relevant independence
+  and fair view of the financial position of the Group (the company together with its subsidiaries) as at  requirements in the Netherlands. Furthermore, we have complied with the ‘Verordening gedrags- en
+  January 3, 2021 and of its result and cash flows for the period from December 30, 2019 to January 3,     beroepsregels accountants’ (VGBA, Dutch Code of Ethics).
+  2021 in accordance with International Financial Reporting Standards as adopted by the European
+                                                                                                           Our audit approach
+  Union (EU-IFRS) and with Part 9 of Book 2 of the Dutch Civil Code;
+                                                                                                           Overview and context
+• The parent company financial statements of Koninklijke Ahold Delhaize N.V. give a",2020,"AR","EN","AHOLDDE1","TRUE"
+"2020_AR_EN_AHOLDDE1.pdf.9","and fair view     Koninklijke Ahold Delhaize N.V. is an international food retail group, operating supermarkets and
+  of the financial position of the company as at January 3, 2021 and of its result for the period from     e‑commerce platforms in Belgium, the Czech Republic, Greece, Luxembourg, the Netherlands,
+  December 30, 2019 to January 3, 2021 in accordance with Part 9 of Book 2 of the Dutch Civil Code.        Romania, Serbia and the United States and through participating in joint ventures in Indonesia and
+                                                                                                           Portugal. The Group is comprised of several components and therefore we considered our group audit
+What we have audited
+                                                                                                           scope and approach as set out in the section ‘The scope of our group audit’. We paid specific attention
+We have audited the accompanying financial statements for the period December 30, 2019 to January
+                                                                                                           to the areas of focus driven by the operations of the Group, as set out below.
+3, 2021 of Koninklijke Ahold Delhaize N.V., Zaandam, the Netherlands. The financial statements
+include the consolidated financial statements of the Group and the parent company financial                COVID-19 is reflected in the 2020 financial statements by an increase in net sales, cost of sales as well
+statements.                                                                                                as increases in selling expenses, profitability and cash flows. Additionally, the withdrawals from the
+                                                                                                           United Food & Commercial Workers International Union (UFCW) Industry Pension Fund (the “National
+The consolidated financial statements comprise:
+                                                                                                           Plan”), the UFCW Local 1500 pension fund (the “1500 Plan”) and the settlement agreement for Food
+• the consolidated balance sheet as at January 3, 2021;                                                    Employers Labor Relations Association and United Food and Commercial Workers Pension Fund
+                                                                                                           (“FELRA”) and the Mid-Atlantic UFCW and Participating Employers Pension Fund (“MAP”) significantly
+• the following statements for the period from December 30, 2019 to January 3, 2021: the consolidated
+                                                                                                           increased the 2020 pension expense. Both the impact of COVID-19 and the employee benefit plan
+  income statement, the consolidated statements of comprehensive income, changes in equity and
+                                                                                                           transactions were considered in the determination of materiality as described in the section ‘Materiality’.
+  cash flows; and
+                                                                                                           As part of designing our audit, we determined materiality and assessed the risk of material
+• the notes, comprising a summary of significant accounting policies and other explanatory information.
+                                                                                                           misstatement in the financial statements. In particular, we considered where the Management Board
+The parent company financial statements comprise:                                                          made important judgments, for example, in respect of significant accounting estimates that involved
+                                                                                                           making assumptions and considering future events that are inherently uncertain. In Note 2 of the
+• the parent company balance sheet as at January 3, 2021;
+                                                                                                           financial statements, the company describes the areas of judgment in applying accounting policies and
+• the parent company income statement for the period from December 30, 2019 to January 3, 2021;            the key sources of estimation uncertainty.
+  and
+                                                                                                           As in 2019, we considered the impairment testing of goodwill and brand names, and the recognition of
+• the notes, comprising a summary of accounting policies applied and other explanatory information.        vendor allowance income as key audit matters, in view of the significant estimation uncertainty and the
+The financial reporting framework applied in the preparation of the financial statements is EU-IFRS and    related higher inherent risk of material misstatement. Furthermore, we continue to consider the
+the relevant provisions of Part 9 of Book 2 of the Dutch Civil Code for the consolidated financial         employee benefit plan measurement and disclosures as a key audit matter because of the complexity
+statements and Part 9 of Book 2 of the Dutch Civil Code for the parent company financial statements.       and judgment required in auditing the defined benefit obligation estimates as well as the extensive
+                                                                                                           disclosures required, specifically in the area of the group’s participation in US multi-employer plans.
+The basis for our opinion                                                                                  Each of these key audit matters have been set out in the section ‘Key audit matters’ of this report.
+We conducted our audit in accordance with Dutch law, including the Dutch Standards on Auditing. We
+have further described our responsibilities under those standards in the section ‘Our responsibilities for Last year, we considered the recognition of a right of use asset and a lease liability as part of first-year
+the audit of the financial statements’ of our report.                                                      adoption of the lease standard (IFRS 16) as a key audit matter. As this was completed in 2019, we no
+                                                                                                           longer consider this a key audit matter.
+                                                                                                                                                                                   Ahold Delhaize Annual Report 2020 239",2020,"AR","EN","AHOLDDE1","TRUE"
+"2020_AR_EN_AHOLDDE2.pdf.1","to our values of integrity
+and care.
+Our brands’ safety programs address regulations and initiatives that contribute to physical safety
+and mental health at work. In stores, offices and distribution centers, safe working practices are
+integrated right into designs, equipment purchases and operational practices. Safety is improved
+not only through visible leadership, but by engaging associates to play their own role, keeping an
+eye out for potentially dangerous or inappropriate situations.
+Our initiatives are aligned with Sustainable Development Goal (SDG) 8, protecting labor rights and
+promoting safe and secure working environments for all.
+Our focus
+With our work safety strategy and roadmap, we aim to create a safety mindset throughout the
+brands. Cross-functional safety committees in all brands will drive visibility, awareness and trainings,
+and promote safe methods of working. Our ambition for 2020 is to reduce our Workplace Injury
+Absenteeism Rate across all brands (work injuries resulting in lost days per 200,000 labor hours).
+In 2019, it stood at 2.1, and we will continue our critical ongoing efforts to reduce this further.
+Ahold Delhaize Human Rights Report, 2020                                                                 15",2020,"AR","EN","AHOLDDE2","TRUE"
+"2020_AR_EN_AUCHAN##.pdf.1","and fair view of the assets, financial situation and results of operations of the company and all of the
+   companies included within the consolidation scope. The management report provides an accurate description of the business
+   trends, results of operations and financial situation of the company and all of the companies included in the consolidation scope, as
+   well as a description of the main risks and uncertainties that they face.”
+                                                                                                                          Edgard Bonte
+                                                                                                General Manager of Auchan Holding SA
+12       Financial Report 2020 I",2020,"AR","EN","AUCHAN##","TRUE"
+"2020_AR_EN_AUCHAN##.pdf.2","d in accordance with, French law and
+  professional standards applicable in France.
+  For the year ended 30 September 2020
+  To the Annual General Meeting,
+  In our capacity as Statutory Auditor of your company (hereinafter               P the fairness of the information provided in accordance with
+  the “entity”) appointed as independent third party, and accredited                 article R.225-105 I, 3° and II of the French Commercial Code,
+  by the French Accreditation Committee (Comité Français                             i.e., the outcomes, including key performance indicators,
+  d'Accréditation or COFRAC) under number 3-1049(1), we hereby                       and the measures implemented considering the principal
+  report to you on the consolidated non-financial statement for the                  risks (hereinafter the “Information”).
+  year ended 30 September 2020 (hereinafter the “Statement”),                     However, it is not our responsibility to comment on the entity’s
+  included in the entity's Management Report pursuant to the                      compliance with other applicable legal and regulatory
+  requirements of articles L. 225-102-1, R. 225-105 and R. 225-105-1              requirements, in particular the French duty of care law and
+  of the French Commercial Code (Code de commerce).                               anti-corruption and tax avoidance legislation nor on the
+                                                                                  compliance of products and services with the applicable
+                                                                                  regulations.
+  RESPONSIBILITY OF THE ENTITY
+  The Management Board's is responsible for preparing the                         NATURE AND SCOPE OF OUR WORK
+  Statement, including a presentation of the business model,
+  a description of the principal non-financial risks, a presentation              The work described below was performed in accordance with
+  of the policies implemented considering those risks and the
+                                                                                  the provisions of Article A.225-1 et seq. of the French
+  outcomes of said policies, including key performance
+                                                                                  Commercial Code, as well as with the professional guidance of
+  indicators.                                                                     the French Institute of Statutory Auditors (Compagnie nationale
+  The Statement has been prepared in accordance with the                          des commissaires aux comptes or CNCC) applicable to such
+  entity’s procedures (hereinafter the “Guidelines”), the main                    engagements and with ISAE 3000(2):
+   elements of which are presented in the Statement and
+                                                                                  P We obtained an understanding of all the consolidated
+  available upon request at the entity’s head office.                                entities' activities, and the description of the principal risks
+                                                                                     associated;
+  INDEPENDENCE AND QUALITY CONTROL                                                P We assessed the suitability of the criteria of the Guidelines
+                                                                                     with respect to their relevance, completeness, reliability,
+  Our independence is defined by the requirements of article                         neutrality and understandability, with due consideration of
+   L.822-11-3 of the French Commercial Code and the French                           industry best practices, where appropriate;
+  Code of Ethics (Code de déontologie) of our profession.
+                                                                                  P We verified that the Statement includes each category of
+   In addition, we have implemented a system of quality control                      social and environmental information set out in article
+  including documented policies and procedures regarding                             L.225-102-1 III;
+  compliance with applicable legal and regulatory requirements,
+  the ethical requirements and French professional guidance.                      P We verified that the Statement provides the information
+                                                                                     required under article R. 225-105 II of the French Commercial
+                                                                                     Code, where relevant with respect to the principal risks,
+  RESPONSIBILITY OF THE STATUTORY                                                    and includes, where applicable, an explanation for the
+  AUDITORS APPOINTED AS INDEPENDENT                                                  absence of the information required under article L. 225-102-1
+                                                                                     III, paragraph 2 of the French Commercial Code;
+   THIRD PARTY
+                                                                                  P We verified that the Statement presents the business model
+   On the basis of our work, our responsibility is to provide                        and a description of principal risks associated with all the
+  a report expressing a limited assurance conclusion on:                             consolidated entities’ activities, including where relevant and
+                                                                                     proportionate, the risks associated with their business
+  P the compliance of the Statement with the requirements                            relationships, their products or services, as well as their
+      of article R. 225-105 of the French Commercial Code;                           policies, measures and the outcomes thereof, including key
+                                                                                     performance indicators associated to the principal risks;
+  (1) Accreditation Cofrac Inspection, number 3-1049, scope available at www.cofrac.fr
+  (2) ISAE 3000: international standard on assurance engagements other than audits or reviews of historical financial information.
+76       Financial Report 2020 I",2020,"AR","EN","AUCHAN##","TRUE"
+"2020_AR_EN_AUCHAN##.pdf.3","d in accordance with, French law and professional auditing standards
+   applicable in France.
+    To the Shareholders,
+    OPINION                                                                    JUSTIFICATION OF ASSESSMENTS -
+                                                                               KEY AUDIT MATTERS
+    In compliance with the engagement entrusted to us by your
+    Shareholders Meeting, we have audited the accompanying                     Due to the global crisis related to the Covid-19 pandemic, the
+   consolidated financial statements of AUCHAN HOLDING for                     financial statements of this period have been prepared and
+    the year ended December 31, 2020.                                          audited under specific conditions. Indeed, this crisis and the
+   In our opinion, the consolidated financial statements give a",2020,"AR","EN","AUCHAN##","TRUE"
+"2020_AR_EN_AUCHAN##.pdf.4","exceptional measures taken in the context of the state of
+   and fair view of the assets and liabilities and of the financial            sanitary emergency have had numerous consequences for
+   position of the Group at December 31, 2020 and of the results               companies, particularly on their operations and their financing,
+    of its operations for the year then ended in accordance with               and have led to greater uncertainties on their future prospects.
+    International Financial Reporting Standards as adopted by the              Those measures, such as travel restrictions and remote
+    European Union.                                                            working, have also had an impact on the companies’ internal
+                                                                               organization and the performance of the audits.
+    The audit opinion expressed above is consistent with our report
+    to the Audit Committee.                                                    It is in this complex and evolving context that, in accordance
+                                                                               with the requirements of Articles L.823-9 and R.823-7 of the
+                                                                               French Commercial Code (code de commerce) relating to the
+    BASIS FOR OPINION                                                          justification of our assessments, we inform you of the key audit
+                                                                               matters relating to risks of material misstatement that, in our
+    Audit Framework                                                            professional judgment, were of most significance in our audit of
+                                                                               the consolidated financial statements of the current period, as
+    We conducted our audit in accordance with professional                     well as how we addressed those risks.
+    standards applicable in France. We believe that the audit
+    evidence we have obtained is sufficient and appropriate to                 These matters were addressed in the context of our audit of the
+   provide a basis for our opinion.                                            consolidated financial statements as a whole, and in forming our
+                                                                               opinion thereon, and we do not provide a separate opinion on
+    Our responsibilities under those standards are further                     specific items of the consolidated financial statements.
+    described in the Statutory Auditors’ Responsibilities for the
+    Audit of the Consolidated Financial Statements section of our              Impairment test of non-current assets
+    report.                                                                    (excluding investment property)
+    Independence                                                               (Note 6.6 to the consolidated financial statements)
+    We conducted our audit engagement in compliance with                       Description of risk
+    independence requirements of the French Commercial Code
+                                                                               At as December 31, 2020, the carrying amounts of goodwill, other
+   (code de commerce) and the French Code of Ethics (code de
+                                                                               intangible assets and property, plant and equipment
+   déontologie) for statutory auditors for the period from
+                                                                               (“Non-current Assets”) of the Group totaled €8,7 billion (38% of the
+    January 1, 2020 to the date of our report and specifically we did
+                                                                               total balance sheet). These Non-current Assets are detailed in
+    not provide any prohibited non-audit services referred to in
+                                                                               Notes 6.1 to 6.3 and 6.5 of the consolidated financial statements.
+   Article 5(1) of Regulation (EU) No 537/2014.
+                                                                               These Non-current Assets are tested for impairment as soon as
+   Emphasis of Matter                                                          there is any indication of a loss of value. This test is performed
+   We draw attention to the following matter described in                      once a year on a mandatory basis for assets with indefinite
+   Note 2.7 to the consolidated financial statements relating to the           useful life. The recoverable value of an asset is defined in
+   consequences of the agenda paper related to the Lease Term                  Note 6.6 to the consolidated financial statements.
+   and Useful Life of Leasehold Improvements (IFRS 16 Leases                   For the purposes of these impairment tests, these Non-current
+   and IAS 16 Property, Plant and Equipment). Our opinion is not               Assets (excluding goodwill and intangible assets with indefinite
+   modified in respect of this matter.                                         useful life) are grouped into Cash Generating Units (CGUs). The
+                                                                               Group has defined the store as the CGU for Retail (excluding
+                                                                               Taiwan where Retail CGU includes the real estate activity).
+                                                                               Goodwill and intangible assets with indefinite useful life are
+                                                                               tested by country and by activity. The CGU group created for
+                                                                               the purposes of this test includes the plant and equipment,
+                                                                               intangible assets and goodwill allocated to the country and the
+                                                                               business as well as its working capital requirements.
+164       Financial Report 2020 I",2020,"AR","EN","AUCHAN##","TRUE"
+"2020_AR_EN_COLRUYT#.pdf.1","discount hunters.
+pandemic had an unprecedented and far-                As a group we had a decent financial year overall.
+reaching impact on our group, affecting               We saw our group revenue increase by 3,7%,             Also with a view to the future, we took the
+areas from sales to production, logistics and         while we achieved a net result of 4,2% of revenue.     difficult but necessary decision to stop non-food
+administration. Faced with a succession of rapidly    The coronavirus pandemic required substantial          sales via the Collishop webshop completely.
+changing events, measures and regulations,            expenditure on safety and remuneration, for            This is because sustainable growth in a highly
+we showed incredible flexibility, creativity          example, and had a far-reaching impact on              competitive non-food market requires us to
+and solidarity as a group. In a rapidly evolving      our activities. While fuel sales fell sharply, our     specialise further in our non-food activities. We
+context, we continually reinvented ourselves and      neighbourhood stores and online sales grew             will retain our network of 400 physical collection
+made the best of the situation, together with         strongly. Even in these exceptional times, Colruyt     points for other online orders. All employees
+our customers, suppliers and other partners.          remained",2020,"AR","EN","COLRUYT#","TRUE"
+"2020_AR_EN_COLRUYT#.pdf.2","to its Lowest Prices promise and         affected remained employed within the group.
+I am particularly proud that we managed to            protected customers’ purchasing power. (1)
+continue to fulfil our social role at all times and                                                          In addition to this, we continued to strengthen
+to maintain the food supply, with as our utmost       During the last financial year, it was often all       our family company via (increased) stakes in
+priority the safety of employees and customers.       hands on deck, but we remained focused on the          clothing chain ZEB and data specialists Daltix
+      INTRO | Word from the Chairman • Who are we? • Our vision on sustainability • COVID-19 • Management report • Key figures                                  4",2020,"AR","EN","COLRUYT#","TRUE"
+"2020_AR_EN_COLRUYT#.pdf.3","to retail, which still accounts for four fifths                             simple solutions for specific requirements. Each in their
+of our revenue. Today, we are active in retail with around ten business                             own, authentic way, our brands express the ‘simplicity
+formats, with both physical outlets and online shops in Belgium,                                    in retail’ that we represent as Colruyt Group. In this way,
+Luxembourg and France.                                                                              each brand helps achieve our common mission. Each
+In addition, we operate in foodservice and wholesale, for instance as                               business format also embodies the same group values.
+a dedicated partner for the independent Spar stores. In recent years, we                            Together, they form the foundation on which we continue
+have also grown strongly as a producer and supplier of renewable wind                               to build as a group and a point of reference in this rapidly
+and solar energy. Finally, it is typical of Colruyt Group that we continue                          changing world. For ourselves, for our partners and for our
+to do many things ourselves. We possess a wealth of experience and                                  customers. So they all know what they can expect of us,
+expertise in areas such as technology, IT and communication, as well                                and that creates trust in turn.
+as production and packaging of meat, coffee, cheese and wine, for
+example.
+      INTRO | Word from the Chairman • Who are we? • Our vision on sustainability • COVID-19 • Management report • Key figures                                   6",2020,"AR","EN","COLRUYT#","TRUE"
+"2020_AR_EN_COLRUYT#.pdf.4",", lasting        • Craftsmanship. Living craftsmanship is a source of joy and pride. Our
+  ‘rewards’. Money, on the other hand, is merely a resource that we invest        company’s success is determined by the skills, attitudes and knowledge
+  to realise our common dream.                                                    of our employees and their teams.
+• Sustainable creation. Every day, we start with a blank page. We gaze          • In retail. Our craft is still retail, even though, over time, our
+  in amazement at the world to see what is possible, conscious of our             entrepreneurship and creative drive have spawned many other
+  strengths and limitations. And we don’t waste energy needlessly from            initiatives.
+  ourselves, our environment or nature.
+   INTRO | Word from the Chairman • Who are we? • Our vision on sustainability • COVID-19 • Management report • Key figures                              9",2020,"AR","EN","COLRUYT#","TRUE"
+"2020_AR_EN_COLRUYT#.pdf.5","food coaching companion
+We are convinced that everyone has the right to know what is
+                                                                                                                                      In 2021, we want to
+in their favourite product. We also want to use our strength
+                                                                                                                                      continue to help our
+as a market leader to help consumers and employees move
+                                                                                                                                      employees move
+towards a healthier lifestyle. That means giving them correct
+                                                                                                                                      towards a healthier
+information, inspiring them and offering them insights, in
+                                                                                                                                      lifestyle, joining
+an accessible and transparent way. In this way, we empower
+                                                                                                                                      forces with our spin-
+them to make conscious choices for themselves, leading to
+                                                                                                                                      off SmartWithFood.
+sustainable behavioural change.
+                                                                                                                                      Based on a scientific
+                                                                                           questionnaire about factors such as exercise, sleep and diet,
+                                                                                           everyone will be able to gain an insight into their general fitness.
+                                                                                           Anyone who wants to can also have a blood test and discuss the
+                                                                                           results with a doctor and a lifestyle coach. There are also longer
+                                               RESULTS
+                                                                                           programmes with blood tests, medical consultations and digital
+   Guide consumers                                                                         coaching to adopt and maintain a healthier lifestyle.
+   • The Nutri-Score is clearly displayed on the front of the                              Last year, SmarthWithFood lent its support to two new projects
+     packaging of 91% of Boni Selection products. We aim                                   to help people struggling with the physical consequences of
+     for 100% by the end of 2021.                                                          COVID-19 move towards a healthier lifestyle. The Healthricious
+   • The Nutri-Score can also be found on 29% of Spar                                      project supports people who are overweight in particular
+     products.                                                                             acquire habits that strengthen immunity. The Matching project
+   • The Nutri-Score is available on various channels and                                  offers another response to the rising demand for online health
+     media, both in-store and online.                                                      coaching through responsible matching of nutritional experts
+                                                                                           and users. Both projects are realised in collaboration with the
+   Provide customised information                                                          European Institute of Innovation and Technology (EIT).
+   • Last year, Colruyt Group Academy launched a series of
+     online Tips & Talks, in which experts shared insights
+                                                                                                            Regional
+     and tips on themes such as nutrition, health and                                                       Innovation
+                                                                                                            Scheme
+     media.
+      SUSTAINABILITY | SDG 2 • SDG 3 • SDG 6 • SDG 7 • SDG 8 • SDG 12 • SDG 13 • Our indicators                                                                 168",2020,"AR","EN","COLRUYT#","TRUE"
+"2020_AR_EN_COLRUYT#.pdf.6","and fair view of the net assets, the financial position and the results of Etn. Fr. Colruyt NV and the
+  entities included in the consolidation scope.
+• the annual report related to the consolidated financial statements gives a",2020,"AR","EN","COLRUYT#","TRUE"
+"2020_AR_EN_COLRUYT#.pdf.7","and fair view of the development and the results of Colruyt Group’s activities, as well
+  as of the position of the company and the entities that are included in the consolidation scope, together with a description of the main risks and uncertainties that
+  Colruyt Group faces.
+Jef Colruyt                                                                       Stefaan Vandamme
+Chairman of the Board of Directors                                                Chief Financial Officer
+        FINANCIAL REPORT | Consolidated statements • Statement • Independent auditor’s report • Notes • Definitions                                                        215",2020,"AR","EN","COLRUYT#","TRUE"
+"2020_AR_EN_COLRUYT#.pdf.8","and
+     requirements. These two reports are considered one report and are                                                                                                                                          In our opinion, the Cons
+                                                                                                              view of theThese
+                                                                                                        requirements.
+                                                                                                       fair                                    two reports
+                                                                                                                                     consolidated               are considered
+                                                                                                                                                          net equity                    one report
+                                                                                                                                                                            and financial     positionand
+                                                                                                                                                                                                        as are
+                                                                                                                                                                                                            at
+     inseparable.                                                                                                                                                                                               fair view of the consolid
+                                                                                                        inseparable.
+                                                                                                       31    March 2021, and of its consolidated results for the year then
+     We have been appointed as statutory auditor by the shareholders’                                                                                                                                           31 March 2021, and of i
+                                                                                                       ended,
+                                                                                                        We have      prepared
+                                                                                                                        been appointed in accordance         with the
+                                                                                                                                                     as statutory           International
+                                                                                                                                                                        auditor               Financial
+                                                                                                                                                                                   by the shareholders’
+     meeting of 25 September 2019, in accordance with the proposition                                                                                                                                           ended, prepared in acco
+                                                                                                        meeting of 25 September 2019, in accordance with the (“IFRS”)
+                                                                                                       Reporting          Standards           as   adopted     by   the    European      Union   propositionand
+     by the Board of Directors following recommendation of the Audit                                                                                                                                            Reporting Standards as 
+                                                                                                       with     applicable          legal     and   regulatory      requirements
+                                                                                                        by the Board of Directors following recommendation of the Audit                  in Belgium.
+     Committee and following recommendation of the workers’ council.                                                                                                                                            with applicable legal and
+                                                                                                        Committee
+                                                                                                       Basis         for the          following recommendation
+                                                                                                                             and unqualified             opinion                of the workers’ council.
+     Our mandate expires at the shareholders’ meeting that will                                                                                                                                                 Basis for the unquali
+                                                                                                        Our mandate expires at the shareholders’ meeting that will
+     deliberate on the Consolidated Financial Statements for the year                                  We     conducted                    audit in accordance
+                                                                                                                                   ourConsolidated                       with   International     Standards
+                                                                                                        deliberate        on the                             Financial       Statements      for the  year      We conducted our audit 
+     ending 31 March 2022. We performed the audit of the Consolidated                                  on    Auditing        (“ISAs”).         Our   responsibilities        under   those    standards   are
+                                                                                                        ending 31 March 2022. We performed the audit of the Consolidated                                        on Auditing (“ISAs”). Ou
+     Financial Statements of the Group during 5 consecutive years.                                     further        described           in the   “Our   responsibilities        for  the  audit  of the
+                                                                                                        Financial Statements of the Group during 5 consecutive years.                                           further described in the 
+                                                                                                       Consolidated Financial Statements” section of our report.
+                                                                                                                                                                                                                Consolidated Financial S
+                                                                                                       We have complied with all ethical requirements that are relevant to
+                                                                                                                                                                                                                We have complied with a
+                                                                                                       our audit of the Consolidated Financial Statements in Belgium,
+                                                                                                                                                                                                                our audit of the Consolid
+                                                                                                       including those with respect to independence.
+                                                                                                                                                                                                                including those with resp
+     Besloten vennootschap
+     Société à responsabilité limitée                                                                   Besloten vennootschap
+     RPR Brussel - RPM Bruxelles - BTW-TVA BE0446.334.711-IBAN N° BE71 2100 9059 0069                   Société à responsabilité limitée
+     *handelend in naam van een vennootschap:/agissant au nom d'une société                             RPR Brussel - RPM Bruxelles - BTW-TVA BE0446.334.711-IBAN N° BE71 2100 9059 0069
+                                                                                                        *handelend in naam van een vennootschap:/agissant au nom d'une société
+     A member firm of Ernst & Young Global Limited
+                                                                                                        A member firm of Ernst & Young Global Limited
+   FINANCIAL REPORT | Consolidated statements • Statement • Independent auditor’s report • Notes • Definitions                                                                                                                   216",2020,"AR","EN","COLRUYT#","TRUE"
+"2020_AR_EN_COLRUYT#.pdf.9","and fair view in    Group, nor about the efficiency or effectiveness with which the board
+  accordance with IFRS and with applicable legal and regulatory          of directors has taken or will undertake the Company's and the
+  requirements in Belgium and for such internal controls relevant to the Group’s business operations. Our responsibilities with regards to the
+  preparation of the Consolidated Financial Statements that are free     going concern assumption used by the board of directors are
+  from material misstatement, whether due to fraud or error.             described below.
+                                                                                                                                                   4
+FINANCIAL REPORT | Consolidated statements • Statement • Independent auditor’s report • Notes • Definitions                                          219",2020,"AR","EN","COLRUYT#","TRUE"
+"2020_AR_EN_COLRUYT#.pdf.10","and fair view of
+     due to fraud or error, the planning and execution of audit              the underlying transactions and events.
+     procedures to respond to these risks and obtain audit evidence
+                                                                          We communicate with the Audit Committee within the Board of
+     which is sufficient and appropriate to provide a basis for our
+                                                                          Directors regarding, among other matters, the planned scope and
+     opinion. The risk of not detecting material misstatements
+                                                                          timing of the audit and significant audit findings, including any
+     resulting from fraud is higher than when such misstatements
+                                                                          significant deficiencies in internal control that we identify during our
+     result from errors, since fraud may involve collusion, forgery,
+                                                                          audit.
+     intentional omissions, misrepresentations, or the override of
+     internal control;                                                    Because we are ultimately responsible for the opinion, we are also
+                                                                          responsible for directing, supervising and performing the audits of
+  •  obtaining insight in the system of internal controls that are
+                                                                          the subsidiaries. In this respect we have determined the nature and
+     relevant for the audit and with the objective to design audit
+                                                                          extent of the audit procedures to be carried out for group entities.
+     procedures that are appropriate in the circumstances, but not for
+     the purpose of expressing an opinion on the effectiveness of the     We provide the Audit Committee within the Board of Directors with a
+     Company’s internal control;                                          statement that we have complied with relevant ethical requirements
+                                                                          regarding independence, and to communicate with them all
+  •  evaluating the selected and applied accounting policies, and
+                                                                          relationships and other matters that may reasonably be thought to
+     evaluating the reasonability of the accounting estimates and
+                                                                          bear on our independence, and where applicable, related safeguards.
+     related disclosures made by the Board of Directors;
+                                                                          From the matters communicated with the Audit Committee within the
+  •  conclude on the appropriateness of the Board of Directors’ use of
+                                                                          Board of Directors, we determine those matters that were of most
+     the going-concern basis of accounting, and based on the audit
+                                                                          significance in the audit of the Consolidated Financial Statements of
+     evidence obtained, whether or not a material uncertainty exists
+                                                                          the current period and are therefore the key audit matters. We
+     related to events or conditions that may cast significant doubt on
+                                                                          describe these matters in our report, unless the law or regulations
+     the Company’s or Group’s ability to continue as a going concern.
+                                                                          prohibit this.
+     If we conclude that a material uncertainty exists, we are required
+     to draw attention in our auditor’s report to the related disclosures
+     in the Consolidated Financial Statements or, if such disclosures
+     are inadequate, to modify our opinion. Our conclusions are based
+     on audit evidence obtained up to the date of the auditor’s report.
+                                                                                                                                                    5
+FINANCIAL REPORT | Consolidated statements • Statement • Independent auditor’s report • Notes • Definitions                                           220",2020,"AR","EN","COLRUYT#","TRUE"
+"2020_AR_EN_COLRUYT#.pdf.11","and fair view of the financial
+position of Etn. Fr. Colruyt NV in accordance with all legal and regulatory dispositions. In the report no attention was drawn to any matter in particular.
+The annual report, the annual financial statements of Etn. Fr. Colruyt NV and the independent auditor’s report are filed with the National Bank of Belgium, in accordance with art. 3:10
+and 3:12 of the Companies and Associations Code. A copy of these documents can be obtained there on request.
+These documents can also be obtained on request at the Company’s registered office:
+Etn. Fr. Colruyt NV – Edingensesteenweg 196, 1500 Halle
+Tel. +32 (2) 363 55 45
+Internet: www.colruytgroup.com
+Email: contact@colruytgroup.com
+         FINANCIAL REPORT | Consolidated statements • Statement • Independent auditor’s report • Notes • Definitions                                                                       284",2020,"AR","EN","COLRUYT#","TRUE"
+"2020_AR_EN_COOPSWE1.pdf.1","and fair view from an accounting point of view, given the stated
+                                                                     ambition to start the divestment process at the time of the
+                                                                     acquisition.
+                                                                     For this reason, deferred tax has been valued at zero.
+more to be adjusted at a later date and the amount may be
+can be reliably estimated, the amount is included in the estimated final
+the cost of the unit acquired.
+   Adjustment of the value of additional purchase consideration              because the parent enterprise already has control. Since changes in
+within twelve months from the acquisition date affects                       ownership interests in enterprises that are subsidiaries are only
+goodwill/negative goodwill. Adjustments later than twelve
+months after the acquisition date are recognised in the
+consolidated income statement.
+a ADJUSTMENT OF DISEASE ANALYSIS
+If the assumptions for the acquisition analysis are incomplete, it
+is adjusted to better reflect actual conditions at the acquisition
+date. The adjustments are made retrospectively within twelve
+months of the acquisition date. Adjustments made later than
+twelve months after the acquisition date are accounted for as a
+change in accounting estimate.
+a CHANGES IN SHAREHOLDINGS
+When acquiring additional shares in an enterprise, which is
+already a subsidiary, a new acquisition analysis is not prepared",2020,"AR","EN","COOPSWE1","TRUE"
+"2020_AR_EN_COOPSWE1.pdf.2","and fair view, in all                                              Consolidated Financial Statements and can be found
+material respects, of the financial position of                                        on pages 1-75. The Board of Directors and the
+the Association and the Group as at 31                                                 Executive Director are responsible for the other
+December 2019 and of its financial                                                     information.
+performance and its cash flows for the                                                    Our opinion on the annual accounts and
+year then ended in accordance with the                                                 consolidated accounts does not cover this
+Annual Accounts Act. The Directors'                                                    information and we do not express an audit opinion
+Report is consistent with the other parts of                                           on this other information.
+the annual and consolidated financial                                                     In connection with our audit of the annual and
+statements.                                                                            consolidated financial statements, it is our
+   We therefore recommend that the                                                     responsibility to read the information identified above
+General Meeting approve the profit and                                                 and consider whether the information is materially
+loss account and the balance sheet of the                                              inconsistent with the annual and consolidated
+parent company and the group.                                                          financial statements. In performing this review, we
+                                                                                       also consider the other knowledge we have obtained in
+a REASON FOR THE OPINION                                                               the course of the audit and consider whether the
+We conducted our audit in accordance                                                   information otherwise appears to be materially
+with generally accepted auditing                                                       misstated.
+standards in Sweden. The auditor's                                                        If, based on the work that has been done on this
+responsibilities under this code of practice                                           information, we conclude
+are described in more detail in the sections
+on the responsibility of the authorised
+auditor and the responsibility of the elected
+auditor.",2020,"AR","EN","COOPSWE1","TRUE"
+"2020_AR_EN_COOPSWE1.pdf.3","and fair
+view of the results and position of the                                       a RESPONSIBILITY OF THE BOARD AND THE EXECUTIVE
+Association and the Group.                                                    DIRECTOR
+                                                                              The Board of Directors is responsible for the
+REPORT ON OTHER LEGAL AND                                                     the right to dispose of the association's profit or loss.
+REGULATORY REQUIREMENTS
+                                                                              When proposing a dividend, this includes an
+a UTTALAND                                                                    assessment of whether the dividend is justifiable in
+In addition to our audit of the annual                                        view of the requirements of the nature, scope and risks
+accounts and the consolidated accounts,                                       of the association's and group's activities with regard
+we have also audited the management of                                        to the size of the association's and group's equity,
+the Cooperative Association (KF),                                             consolidation needs, liquidity and other position.
+Cooperative Society, for the year 20�9                                           The Board is responsible for the organisation of the
+and the proposed appropriation of the                                         Association and the management of its affairs. This
+Society's profit or loss by the Board of                                      includes, among other things, continuously assessing
+Directors and the Executive Director.                                         the Association's
+   We recommend that the Annual
+General Meeting approves the
+appropriation of profits as proposed in the",2020,"AR","EN","COOPSWE1","TRUE"
+"2020_AR_EN_ICAGRUPP.pdf.1","in particular for sales   which means that Apotek Hjärtat in
+significant effect on m     ­ arket     of both prescription drugs and self-          2020 became market leader.
+development in 2020.                    care medicines.
+                                                                                      Proposed legislative amendment
+                                        Regulated sourcing and retail prices          In 2019 the Swedish Medical Products
+Strong increase in e-commerce           Prescription drugs account for around         Agency recommended that the Gov-
+The Covid-19 pandemic has precipi-      73% of total market sales, self-care          ernment review the possibility of
+tated the move towards online sales     medicines for around 8% and other             healthcare companies owning phar-
+channels in the pharmacy market. The    commercial goods and services for             macies, and vice versa. One of the
+share of online sales of total market   around 18%. Both purchase prices and          ­reasons for this is the risk of over-­
+sales for the full year is estimated at retail prices for prescription drugs           prescribing and of inappropriate drug
+16.2% (10.7), and growth at 59%. In     within the reimbursement system are            treatment. In its response, the Swedish
+2020 the number of outpatient phar-     set in the price model and according to        Pharmacy Association pointed out that          Growth of the pharmacy                         Pharmacy market              Pharmacy market
+macies in Sweden totalled 1,426. The    regulations established by the Swedish         there is insufficient evidence that a          ­market in Sweden 2016–2020                    sales, Sweden                share, Sweden
+vast majority of these belonged to one  Government through the Dental and              partnership or ownership structure
+of the five largest pharmacy chains.    Pharmaceutical Benefits Agency (TLV).          between outpatient pharmacies and                %
+With a sustained high growth rate in    The pharmacies’ trade margin consists          care providers would lead to these              14
+                                                                                                                                       12
+the online channel, the number of       of a fixed amount and a percentage             potential risks materialising.
+                                                                                                                                       10
+pharmacies is expected to fall over the supplement based on the purchase                                                                8
+next few years. The majority of the     price.                                                                                          6
+chains currently offer online sales.       As a result of economic conditions,                                                          4
+                                                                                                                                        2
+There are also three pure-play e-com-   pharmacies have generally broadened                                                             0
+merce operators, with the largest one,  and intensified their offering of OTC                                                          -2
+Apotea, in particular showing strong    drugs and of other commercial goods                                                            -4
+                                                                                                                                          2016 2017 2018 2019 2020                                                   Apotek Hjärtat, 31%
+growth in recent years.                 and services. They have also contrib-                                                                                                            Prescription drugs, 73%
+                                                                                                                                            Pharmacy market       Prescription           Commercial goods            Other, 69%
+                                        uted to the consolidation of the market                                                                                                          and services, 18%
+                                                                                                                                            OTC drugs             Commercial goods
+2020 characterised by the pandemic      that has taken place in recent years.                                                                                                            OTC drugs, 9%
+The combined sales during the year
+                                                                                                                                        Source: Swedish Pharmacy Association
+amounted to around SEK 49.3 billion,
+ICA GRUPPEN ANNUAL REPORT 2020                                                                                                                                                                                                               37",2020,"AR","EN","ICAGRUPP","TRUE"
+"2020_AR_EN_ICAGRUPP.pdf.2","and fair pres-
+                                                                                                  ­capitalised as part of the cost of the asset.                                          entation of the substance of the leases. If standardisation in the future involves the
+ Inventories                                                                                                                                                                              addition of more detailed rules based, for example, on amendments to IFRS 16 or
+ Inventories are measured at the lower of cost and net realisable value. Cost consists             Cash and cash equivalents                                                              interpretations of IFRS 16 issued by IFRS IC, this could impact the financial
+ of all purchase costs after deducting supplier bonuses received relating to products              Cash and cash equivalents consist of cash, bank balances and short-term invest-        ­statements.
+ in stock.                                                                                         ments with an original maturity of no more than three months.
+                                                                                                                                                                                           Valuation of goodwill and trademarks
+ Financial instruments                                                                             Bonus programmes                                                                        Assessments are made on an ongoing basis to ensure that the book value of good-
+ Financial assets are classified in three categories: financial assets measured at amor-           The bonus programmes for senior executives are cash-based. Amounts are recog-           will and trademarks does not exceed their recoverable amount. A calculation is made
+ tised cost, financial assets measured at fair value through profit or loss and financial          nised in the income statement and the liability is remeasured at fair value on an       of the recoverable amount to assess whether impairment of goodwill and trade-
+ assets measured through other comprehensive income. As a general rule, financial                  ongoing basis until the liability is settled.                                           marks is indicated. The recoverable amount is calculated using a present value calcu-
+ liabilities are measured at amortised cost. Derivatives that constitute a liability are                                                                                                   lation of cash flows based on the anticipated future outcomes of a number of factors.
+ recognised at fair value through profit or loss.                                                  Pensions and other post-employment benefit obligations                                  Since fair value is calculated based on assumptions about the future, a downgraded
+     The fair values of financial assets and liabilities have been determined in accord-           The Group has both defined contribution and defined benefit pension plans. Defined      assessment of these assumptions could indicate impairment. The effects of the
+ ance with the descriptions in Note 14 in the case of ICA Bank and Note 20 for the rest            benefit pension plans are recognised at their present value. The discount rate is the   Covid-19 pandemic are not expected to have a material impact on these future
+ of ICA Gruppen.                                                                                   interest rate for housing bonds which, according to ICA Gruppen, are corporate          assumptions unless the pandemic continues for several years.
+                                                                                                   bonds in accordance with IAS 19 Employee Benefits. Revaluation of pension liabilities
+ Liabilities to credit institutions and other loan liabilities                                     based on actuarial gains and losses is recognised in other comprehensive income.
+ All loan liabilities are recognised at amortised cost according to the effective interest
+ method.
+ICA GRUPPEN ANNUAL REPORT 2020                                                                                                                                                                                                                                                   81",2020,"AR","EN","ICAGRUPP","TRUE"
+"2020_AR_EN_ICAGRUPP.pdf.3","and fair presentation of the Group’s and                 stated as such on page 5, has been approved for publication by the Board of
+ the Parent Company’s financial position and results, and that the Board of Directors’             ­Directors.
+ Report provides a",2020,"AR","EN","ICAGRUPP","TRUE"
+"2020_AR_EN_ICAGRUPP.pdf.4","and fair overview of the development of the Group’s and the
+                                                                                 Stockholm, 18 February 2021
+                 Claes-Göran Sylvén                               Lennart Evrell                            Cecilia Daun Wennborg                           Andrea Gisle Joosen
+                      Chairman
+                   Jeanette Jäger                               Fredrik Hägglund                                 Bo Sandström                                  Magnus Moberg
+                   Fredrik Persson                                Anette Wiotti                                 Jonathon Clarke                                  Magnus Rehn
+                                                                                         Per Strömberg
+                                                                                     Chief Executive Officer
+                                                                     Our audit report was submitted on 18 February 2021
+                                                                                            KPMG AB
+                                                                                    Helena Arvidsson Älgne
+                                                                                 Authorised Public Accountant
+ICA GRUPPEN ANNUAL REPORT 2020                                                                                                                                                                                                                          109",2020,"AR","EN","ICAGRUPP","TRUE"
+"2020_AR_EN_MERCADON.pdf.1",", relevant, and accurate information.
+122",2020,"AR","EN","MERCADON","TRUE"
+"2020_AR_EN_PLUS####.pdf.1","that you miss
+       the social contact before and after a meeting, but    One of the values is ""forward. How
+       we found a good modus operandi with each other to     do you specifically view that? ""This
+       keep the work going in an enthusiastic way.           value fits well with me and with the
+                                                             Automation, Finance and Administration
+       In the areas of automation, finance and               Coordination Team. We like to look ahead to use
+       administration, much was achieved in 2020. For        technology to help PLUS entrepreneurs move
+       example, thanks to the efforts of the IT department   forward. We have also done so in 2020 with
+       of PLUS Retail, we managed to scale up very           great enthusiasm within our team. Working
+       quickly in the area of e-commerce. This was           together is ultimately the only way to move
+       necessary when customers wanted to do their           forward.""
+       shopping online en masse in the spring.
+       Furthermore, in 2020 a strong technologi- cal
+       foundation was laid for all processes at the front
+       and back of our stores. A supermarket company is
+       increasingly a technology company.
+       Everything is related to technology, from ordering
+       and distribution to payment and delivery and
+       creating customer knowledge. The better we
+       organize that, the more efficient and customer-
+       friendly we can operate.""
+54
+60 - Annual Report PLUS
+2020",2020,"AR","EN","PLUS####","TRUE"
+"2020_AR_EN_PLUS####.pdf.2","and fair view of free from material misstatement, whether due to
+the financial position of Ondernemerscoöperatie    error or fraud.
+De Sperwer U.A. as at January 3, 2021, and of its
+result for the year then ended in accordance with  In preparing the financial statements, the central
+Part B of the 9Netherlands2 Civil Code.            management must consider whether the company
+                                                   is in a position to continue its operations as a
+The financial statements consist of:               going concern. Under the aforementioned
+• the balance sheet as of January 3, 2021;         accounting system, the central management must
+• the income statement for 2020;                   prepare the financial statements on the basis of
+• the notes providing a summary of the             the going concern assumption, unless the central
+  accounting policies and other                    management intends to liquidate the company or
+  explanatory information used.                    terminate the business activities or if termination
+                                                   is the only realistic alternative. The central
+The basis for our judgment                         management must consider events and
+We conducted our audit in accordance with Dutch    circumstances that give rise to reasonable doubt
+law, which includes the Dutch Standards on         could exist whether the company will be able to
+Auditing. Our responsibilities in this regard are  continue as a going concern, disclose this in the
+described in the section entitled 'Our             financial statements.
+responsibilities for the audit of the financial
+statements'.                                       Our responsibilities for auditing the financial
+                                                   statements
+We are independent of Ondernemerscoöperatie De     Our responsibility is to plan and perform an audit
+Sperwer U.A. as required by the Wet toezicht       engagement in such a way as to obtain sufficient
+accountantsorganisaties (Wta), the Verordening     and appropriate audit evidence for our opinion.
+inzake de onafhankelijkheid van accountants
+at assurance engagements (ViO) and other           Our audit was conducted with a high degree but
+independence rules in the Netherlands relevant     not an absolute degree of assurance which may
+to the engagement. Furthermore, we have            result in our not detecting all material errors and
+complied with the Verordening gedrags- en          fraud during our audit.
+beroepsregels accountants (VGBA)
+(Regulations on professional conduct for
+accountants).
+We believe that the audit information we have
+obtained is sufficient and appropriate as a basis
+for our opinion.
+                                                                                                       55
+                                                                                                       69",2020,"AR","EN","PLUS####","TRUE"
+"2020_AR_EN_PLUS####.pdf.3","and fair view of the underlying
+         collusion, forgery, deliberate failure to record    transactions and events.
+         transactions, deliberate misrepresentation or
+         breach of internal controls;                      We communicate with the chief executive officer,
+       • to obtain an understanding of internal control    among other things, the planned scope and
+         relevant to the audit for the purpose of          timing of the audit and the significant findings
+         selecting audit procedures that are appropriate   from our audit, including any significant
+         in the circumstances. These work-                 deficiencies in internal control.
+         The purpose of this report is not to express an
+         opinion on the effectiveness of the entity's      Rotterdam, March 82021
+         internal control;
+       • evaluating the appropriateness of the             Ernst & Young Accountants LLP M.
+         accounting policies used and the                  de Kimpe RA
+         reasonableness of accounting estimates made
+         by management and the related disclosures in
+         the financial statements;
+54
+70 - Annual Report PLUS
+2020",2020,"AR","EN","PLUS####","TRUE"
+"2020_AR_EN_PLUS####.pdf.4","and fair view of the financial
+position of PLUS Holding B. V. as at January3 1, and
+2021of its result for the year then ended in
+2020accordance with Part B of the 9Netherlands2 Civil
+Code.
+The financial statements consist of:
+• consolidated and separate balance sheet as
+  of January32021 ;
+• the consolidated and separate income
+  statement for 2020;
+• the notes providing a summary of the
+  accounting policies and other explanatory
+  information used.
+The basis for our judgment
+We conducted our audit in accordance with Dutch
+law, which includes the Dutch Standards on Auditing.
+Our responsibilities in this regard are described in the
+section entitled Our responsibilities for the audit of
+the financial statements. We are independent of PLUS
+Holding
+B.V. as required by the Wet toezicht accountants-
+organisaties (Wta), the Verordening inzake de
+onafhankelijkheid van accountants bij assurance-op-
+rachten (ViO) and other independence rules in the
+Netherlands relevant to the engagement.
+Furthermore, we have complied with the Dutch
+Regulation on
+and professional rules for accountants (VGBA).
+We believe that the audit information we have
+obtained is sufficient and appropriate as a basis
+for our opinion.
+Statement on other information
+included in the annual report
+In addition to the financial statements and our
+audit report thereon, the annual report includes
+98 - Annual Report PLUS
+94
+2020",2020,"AR","EN","PLUS####","TRUE"
+"2020_AR_EN_PLUS####.pdf.5","and fair view of the underlying
+                                                                   transactions and events.
+        We conducted this audit with professional scepticism
+        and applied professional judgement where relevant in     We communicate with the supervisory board, among
+        accordance with Dutch auditing standards, ethical        other things, the planned scope and timing of the audit
+        rules and independence requirements.                     and the significant findings from our audit, including
+        Our audit included:                                      any significant deficiencies in internal control.
+        • identifying and assessing the risks that the financial
+          statements are materially misstated due to error or    We confirm to the supervisory board that we have
+          fraud, determining and performing audit procedures     complied with the relevant ethical requirements on
+          in response to those risks and obtaining audit         independence. We also communicate with the
+          evidence that is sufficient and appropriate to provide supervisory board on all relationships and other matters
+          a basis for our opinion. The risk of not detecting a   that may reasonably affect our independence and on the
+          material misstatement is greater with fraud than with  related measures to safeguard our independence.
+          error.
+          Fraud may involve collusion, forgery, intentional      Rotterdam, March 82021
+          failure to record transactions, intentional
+          misrepresentation, or breach of internal controls;     Ernst & Young Accountants LLP
+        • gaining an understanding of internal                   drs. M. de Kimpe RA
+          management relevant to the audit for the
+          purpose of
+94
+100- -Annual   ReportPLUS
+       AnnualReport   PLUS
+2020",2020,"AR","EN","PLUS####","TRUE"
+"2020_SR_EN_ASDA####.pdf.1","environmental concerns (in priority order)4
+lifetime planetary impact of any one product versus another
+is extremely complex with no common approach and this
+makes it challenging for us to identify and therefore help our
+customers discover the sorts of products which would reduce
+the carbon footprint of their basket. There are also many
+behaviours customers could adopt to reduce their planet
+impact, such as reusing bags and containers and helping to
+recycle more difficult materials. Encouraging participation and
+measuring the impact of these changes is all in scope.
+                                                                                                                                         1. Price                                                              2. Availability
+Asda is committed to proactively partner with industry
+stakeholders to make progress on measurement, definitions
+and best practice with respect to communicating the planet
+impacts of products to customers. We expect this work to
+involve the development of consistent rules regarding product
+labelling and environmental claims, customer trials, as well as
+more holistic data at the product level. We’ll be reporting back
+on our progress on this in coming years and expect to be able
+                                                                                                                                    3. Quality                                                                             4. Access
+to quantify our goals in due course.
+1. Shoppercentric survey of 1000 UK shoppers, September 2019 I 2 & 3. Kantar Worldpanel February 2020 I 4. https://www.retailtimes.co.uk/research-reveals-80-of-uk-shoppers-describe-themselves-as environmentally-friendly/
+                                                                                                                                                                                                                                                              41",2020,"SR","EN","ASDA####","TRUE"
+"2020_SR_EN_ASDA####.pdf.2","r of our Asda Community Champions – whose role it is to                                                                                    about the importance of recycling and tackling plastic pollution. As
+ help make the communities around their stores a better place to live, work                                                                                 part of this we have run competitions in schools for children to design
+ and grow up in. Based in our larger stores, our 380+ Community Champions                                                                                   environmental posters – with the winner in Bristol taking home £20,000 for
+ are the face and heart of Asda in their local area and the driving force behind                                                                            their school to spend on a recycling and sustainability initiative.
+ our support of worthy causes. They provide localised support tailored to
+                                                                                                                                                            So far, Asda’s Plastics Investigators programme has reached 408,565
+ meet the specific needs of their communities through fundraising, outreach
+                                                                                                                                                            school pupils through 2,791 schools and a parental audience of 694,561 with
+ activities and supporting with grant applications.
+                                                                                                                                                            messages about the importance of plastics recycling.
+ How our Community Champions help
+ From outreach programmes to grant giving, our Community Champions
+ listen to our communities’ needs and work with local people to make sure
+ we’re providing support to those who need it most. They work tirelessly to
+ support charities, projects and initiatives that make a real impact for local
+ people. They also build close relationships with local schools, working with
+ teachers to promote healthy food and an active lifestyle, enthusing children
+ about cooking and talking to them about protecting the environment. In
+ 2019, our Community Champions worked with over 15,000 local groups
+ across the UK, and reached 2,791 schools.1
+ Every year, Asda Community Champions…
+ •       Provide space in our stores to local groups to raise awareness of
+         services available within the community, collect food for food banks
+         and support fundraising for local charities. Some of our stores also
+         have rooms available free of charge that community groups can use to
+         hold meetings.
+ •       Run fundraising events in our stores, through bag packing, bucket
+         collections and by donating goods to fundraising events. Our
+         Community Champions have also taken part in some remarkable
+         colleague fundraising events – from shaving their hair off to running
+         marathons. In everything they do, they make us all incredibly proud.
+ •       Each Champion also has a monthly budget for monetary and product
+         donations to provide practical support to local charities. They also
+         coordinate the in-store Green Token Giving scheme, funded by the
+         Asda Foundation.
+1. Activity includes donations of time, space and goods. School activity consisted of a ‘Plastic Investigators’ activity managed by the organisation ‘We are Futures’.
+                                                                                                                                                                                                                                          58",2020,"SR","EN","ASDA####","TRUE"
+"2020_SR_EN_CONAD###.pdf.1","team spirit. Making each person
+                      constant concern of Conad Adriatico.             aware
+                      In this way the Cooperative is able to           to be an integral part of a system that nurtures
+                      to differentiate itself competitively from other ambitious goals because you make her feel
+                      realities in the area and, above all, allows it  competent, informed and secure in her daily
+                      to make available to members and                 ""doing"" she contributes to a common result made
+                      customers services and tools that are always     of respect for others, desire to build together,
+                      at the forefront.                                knowing how to put in second place
+                      But also to think in terms of development,       personal beliefs and interests.
+                      becoming an industry benchmark.
+12",2020,"SR","EN","CONAD###","TRUE"
+"2020_SR_EN_CONAD###.pdf.2","evolution of the traditional hypermarket
+   Conad Space          24            4.723          16.000/19.000       transformed into a new experience: a convenient,
+                                                                         complete and functional offer.
+                                                                         It combines the convenience factor - the practicality of
+   Conad
+                        17            1.623          10.500/12.000       shopping close to home - with the completeness of the
+   Superstore                                                            assortment and services typical of a commercial area.
+                                                                         The ""heart"" of the Cooperative's network, in terms of
+   Conad                168           878            7.000/8.500         importance of turnover and because it combines the
+                                                                         spirit of easy, complete, fast traditional shopping.
+                                                                         Present in central areas, dedicated to daily shopping
+   Conad City           124           343            4.500/5.500         and weekly completion.
+                                                                         They are the traditional format from which Conad's
+   Margherita                                                            adventure in the panorama of national distribution is
+                        31            191            1.500
+   Conad                                                                 being launched, intended for quick, everyday
+                                                                         shopping.
+                                                                         The quality discount store, which abandons the image of
+   Todis                58            565            2.000/3.000         the spartan point of sale to focus on the quality of
+                                                                         products and service.
+                                                                         It is the sign that was born in the late '80s, the small
+   Food                 17            till 250       800/1.200           store with its function and tradition for everyday
+                                                                         shopping, from fresh to small groceries.
+                                                                         The last born of Conad, dedicated to pets. Two
+                                                                         surfaces, with a defined quantity of products (4
+   PetStore             1             250/500        5.000/8.000         thousand for the smaller format, 5 thousand for the
+                                                                         larger one), promotional activities and specific services.
+                                                                         The solution that brings convenience to motorists in an
+   Fuel
+                        3             1.773          -                   item that weighs more in the family budget and acts as a
+   distributor                                                           ballast on competitors' prices.
+The sales network is complemented by other concepts that respond to new patterns and consumption needs:
+7 Self ConadThe 24 convenience of self-service beyond the closing time of other stores.
+27 ParapharmaciesThe                 convenience and assistance of registered professional pharmacists, with the
+                         same qualification as their colleagues working in traditional pharmacies.
+11 OtticoThe             best of professionalism and the best of the market in the name of convenience.
+2 ConceptFor             the nutrition and well-being of pets.
+20                                                                                                                                  19",2020,"SR","EN","CONAD###","TRUE"
+"2020_SR_EN_CONAD###.pdf.3","that the Cooperative has the duty
+to ensure the longevity and development of
+the sales network, anticipating and
+hypothesizing future scenarios and promoting
+effective training initiatives that facilitate
+generational change, at the same time it is",2020,"SR","EN","CONAD###","TRUE"
+"2020_SR_EN_CONAD###.pdf.4","that senior members must take on the
+responsibility of
+to identify suitable family members to
+continue the management of the company,
+transmitting
+The spirit of entrepreneur and cooperator.
+The training of Junior Members takes place through
+six-month training courses divided into classroom
+and on-the-job training, during
+which are tested the commitment
+and the determination to take the path outside of
+your own store, to acquire the most advanced
+techniques of running a business.
+The experience in other stores is a very
+important phase, during which
+you can measure yourself against other
+management styles and breathe in different
+corporate cultures, training and testing your
+commitment and determination, enriching
+yourself with skills, tools and a vision that goes
+beyond the reality of your own store. Other
+companies
+are what Conad Adriatico has called ""school
+outlets"", excellencies of the organization, whose
+collaborators and members are familiar with the
+educational, training and evaluation processes.
+In summary, the training course is structured as
+follows
+in three macro-phases: coaching on school
+outlets where, through job rotation periods, the
+junior associate will acquire knowledge
+and operational and management skills
+related to all departments; internship in
+Cooperative for
+Know and learn more about the activities,
+46",2020,"SR","EN","CONAD###","TRUE"
+"2020_SR_EN_COOPCH##.pdf.1","and fair view of the financial position, results of o    ­ perations and cash flows. The consolidated finan-
+cial statements of the Coop Group comply with all Swiss GAAP ARR (Accounting and Reporting Recom-
+mendations) and Swiss legal provisions.
+Assets are measured at purchase or production cost. Liabilities are carried at their historical value. The
+income statement is ­presented using the total cost (nature of expense) method. The valuation principles
+were applied unchanged compared with the previous year.
+The annual consolidated financial statements of the Coop Group are presented in Swiss francs (CHF).
+Unless otherwise indicated, all amounts are stated in millions of Swiss francs.
+Cash flow statement
+The cash flow statement is prepared on the basis of the fund comprising cash and cash equivalents.
+Cash flow from operating activities is calculated using the indirect method.
+Scope of consolidation
+The annual consolidated financial statements of the Coop Group comprise the Coop Group Cooperative
+and its equity investments. The Coop Group Cooperative equity investments are listed in the notes un-
+der Scope of consolidation (significant companies).
+Fully consolidated organizations are organizations where the Coop Group directly or indirectly holds
+more than 50% of the voting rights.
+Associated organizations are entities over which the Coop Group is able to exercise significant influ-
+ence. This is usually the case if it holds between 20% and 50% of the voting rights.
+Equity investments where it holds less than 20% are not con­solidated and are presented in financial
+assets at cost less any necessary write-downs.
+Consolidation method
+Fully consolidated organizations
+Assets, liabilities, income and expenses are consolidated in full. Capital consolidation uses the pur-
+chase method, whereby an ­organization’s equity at the date of acquisition or initial consolidation is
+eliminated against the carrying amount of the investment at the parent. Newly acquired organizations
+are revalued at their current value applying uniform Group policies and included in the annual consoli-
+dated financial statements from the date on which control takes effect. If the cost of acquisition is
+higher than the revalued net assets acquired, the remaining excess is recognized as goodwill and amor-
+tized on a straight-line basis.
+Purchase price adjustments contingent on future events are forecasted. If the final purchase price
+­differs from the estimate, goodwill is adjusted accordingly.
+ A negative goodwill (badwill) is credited to the income statement in the period of acquisition. Organiza-
+ tions sold are included up until the date on which ­control is lost, which is usually the date of sale. Minor-
+ ity interests in consolidated equity and in profit or loss are presented separately in the balance sheet
+ and income statement. An increase or reduction in the ownership interest in fully consolidated organi-
+ zations is regarded as a trans­action with owners. Gains and losses on such transactions are therefore
+ eliminated directly against equity.
+ Intercompany transactions and relationships, i.e. income, expenses, receivables and liabilities between
+ consolidated ­organizations, are offset and eliminated. If significant, intercompany profits on trans­
+ actions within the Group are eliminated.
+ Associated organizations
+ If economically significant, associated organizations are includ­ed in the annual consolidated financial
+ statements using the ­equity method. The financial statements of these organizations prepared in
+ ­accordance with the",2020,"SR","EN","COOPCH##","TRUE"
+"2020_SR_EN_COOPCH##.pdf.2","and fair view principle are used to determine the share of equity.",2020,"SR","EN","COOPCH##","TRUE"
+"2020_SR_EN_COOPCH##.pdf.3","and fair view of the existing surplus or deficit are taken as the basis for the assess-
+ment.
+An economic benefit is only recognized if it is permitted and intended to use the surplus to reduce em-
+ployer contributions. Any freely available employer contribution reserves are recognized as assets. An
+economic obligation is recognized if the requirements for recognizing a provision are met.
+The Group companies abroad do not have legally independent pension institutions with separated as-
+sets. Here, obligations arising from pension plans are recognized directly in the balance sheet.
+Related party transactions
+Associated organizations, pension funds and natural persons such as members of the Executive Com-
+mittee or Board of Directors are considered to be related parties.
+Significant financial statement items with associated organizations and other related party transac-
+tions are disclosed in the notes to the annual consolidated f­ inancial statements.
+Off-balance sheet transactions
+Contingent liabilities such as guarantees, guarantee obligations, pledges and other obligations not re-
+quired to be recognized in the balance sheet are measured at each balance sheet date and disclosed at
+nominal value. Other obligations not required to be recognized in the balance sheet include all long-term
+obligations entered into which cannot be terminated within one year. If contingent liabilities and other
+obligations not required to be recognized in the balance sheet lead to an outflow of funds ­without any
+usable inflow of funds and this outflow of funds is probable and can be estimated, a provision is recog-
+nized.
+Change in accounting policies
+Differences arising on the translation of financial statements into the Group currency are recognized
+directly in equity. Under the consolidation and accounting principles applicable thus far, accumulated
+currency differences were transferred from equity to the income statement when subsidiaries or asso-
+ciated organizations were sold. Accumulated translation differences are no longer transferred to the
+income statement, as this is preferable from an accrual basis perspective. The 2019 reporting period is
+unaffected by this change and so prior-year figures were not restated.",2020,"SR","EN","COOPCH##","TRUE"
+"2020_SR_EN_COOPCH##.pdf.4","and fair view of the consolidated
+                  financial position of the Group as at 31 December 2020, and its consolidated results of operations and its
+                  consolidated cash flows for the year then ended in accordance with Swiss GAAP FER and comply with Swiss law.
+                  Basis for Opinion
+                  We conducted our audit in accordance with Swiss law and Swiss Auditing Standards. Our responsibilities under
+                  those provisions and standards are further described in the Auditor’s Responsibilities for the Audit of the
+                  Consolidated Financial Statements section of our report. We are independent of the Group in accordance with the
+                  provisions of Swiss law and the requirements of the Swiss audit profession and we have fulfilled our other ethical
+                  responsibilities in accordance with these requirements.
+                  We believe that the audit evidence we have obtained is sufficient and appropriate to provide a basis for our
+                  opinion.
+                  Report on Key Audit Matters based on the circular 1/2015 of the Federal Audit Oversight Authority
+                  Revenue recognition
+                  Valuation of merchandise
+                  Key audit matters are those matters that, in our professional judgment, were of most significance in our audit of
+                  the consolidated financial statements of the current period. These matters were addressed in the context of our
+                  audit of the consolidated financial statements as a whole, and in forming our opinion thereon, and we do not
+                  provide a separate opinion on these matters.
+                                                                                                                                     1",2020,"SR","EN","COOPCH##","TRUE"
+"2020_SR_EN_COOPCH##.pdf.5","and fair view in accordance with Swiss GAAP FER and the provisions of Swiss law, and for such internal control
+                  as the Board of Directors determines is necessary to enable the preparation of consolidated financial statements
+                  that are free from material misstatement, whether due to fraud or error.
+                  In preparing the consolidated financial statements, the Board of Directors is responsible for assessing the Group’s
+                  ability to continue as a going concern, disclosing, as applicable, matters related to going concern and using the
+                  going concern basis of accounting unless the Board of Directors either intends to liquidate the Group or to cease
+                  operations, or has no realistic alternative but to do so.
+                  Auditor’s Responsibilities for the Audit of the Consolidated Financial Statements
+                  Our objectives are to obtain reasonable assurance about whether the consolidated financial statements as a
+                  whole are free from material misstatement, whether due to fraud or error, and to issue an auditor’s report that
+                  includes our opinion. Reasonable assurance is a high level of assurance, but is not a guarantee that an audit
+                  conducted in accordance with Swiss law and Swiss Auditing Standards will always detect a material misstatement
+                  when it exists. Misstatements can arise from fraud or error and are considered material if, individually or in the
+                  aggregate, they could reasonably be expected to influence the economic decisions of users taken on the basis of
+                  these consolidated financial statements.
+                  As part of an audit in accordance with Swiss law and Swiss Auditing Standards, we exercise professional
+                  judgment and maintain professional skepticism throughout the audit. We also:
+                  —     Identify and assess the risks of material misstatement of the consolidated financial statements, whether due
+                        to fraud or error, design and perform audit procedures responsive to those risks, and obtain audit evidence
+                        that is sufficient and appropriate to provide a basis for our opinion. The risk of not detecting a material
+                        misstatement resulting from fraud is higher than for one resulting from error, as fraud may involve collusion,
+                        forgery, intentional omissions, misrepresentations, or the override of internal control.
+                  —     Obtain an understanding of internal control relevant to the audit in order to design audit procedures that are
+                        appropriate in the circumstances, but not for the purpose of expressing an opinion on the effectiveness of the
+                        Group’s internal control.
+                  —     Evaluate the appropriateness of accounting policies used and the reasonableness of accounting estimates
+                        and related disclosures made.
+                  —     Conclude on the appropriateness of the Board of Directors’ use of the going concern basis of accounting and,
+                        based on the audit evidence obtained, whether a material uncertainty exists related to events or conditions
+                        that may cast significant doubt on the Group’s ability to continue as a going concern. If we conclude that a
+                        material uncertainty exists, we are required to draw attention in our auditor’s report to the related disclosures
+                        in the consolidated financial statements or, if such disclosures are inadequate, to modify our opinion. Our
+                        conclusions are based on the audit evidence obtained up to the date of our auditor’s report. However, future
+                        events or conditions may cause the Group to cease to continue as a going concern.
+                  —     Evaluate the overall presentation, structure and content of the consolidated financial statements, including
+                        the disclosures, and whether the consolidated financial statements represent the underlying transactions and
+                        events in a manner that achieves fair presentation.
+                  —     Obtain sufficient appropriate audit evidence regarding the financial information of the entities or business
+                        activities within the Group to express an opinion on the consolidated financial statements. We are
+                        responsible for the direction, supervision and performance of the Group audit. We remain solely responsible
+                        for our audit opinion.
+                  We communicate with the Board of Directors or its relevant committee regarding, among other matters, the
+                  planned scope and timing of the audit and significant audit findings, including any significant deficiencies in
+                  internal control that we identify during our audit.
+                  We also provide the Board of Directors or its relevant committee with a statement that we have complied with
+                  relevant ethical requirements regarding independence, and communicate with them all relationships and other
+                  matters that may reasonably be thought to bear on our independence, and where applicable, actions taken to
+                  eliminate threats or safeguards applied.
+                                                                                                                                          4",2020,"SR","EN","COOPCH##","TRUE"
+"2020_SR_EN_ELCORTEI.pdf.1","to our steadfast identity and hallmark values, those on
+which we have built up mutual trust with society.
+In this new scenario of hope, projects and long-term vision, we have drawn up an ambitious
+business plan articulated around three cornerstones: digitalisation, diversification and
+sustainability, all of which customer-centric.
+On the digitalisation front, it is fair to say that El Corte Inglés has taken decisive steps in
+its omnichannel strategy. We have become a fully digital company that provides solutions -
+through a broad spectrum of possibilities - to increasingly versatile customers, who can choose
+the channel that best suits their needs at any given time.
+We launched a new app that gives users access to millions of products and services across all
+our business areas. That development effort continues full speed ahead with lots of new ideas,
+spurred on by our strengths. This technological transformation, which will soon make the",2020,"SR","EN","ELCORTEI","TRUE"
+"2020_SR_EN_ELCORTEI.pdf.2","to its commitment to
+                                                                            society, adapting swiftly to the changing situation by realigning its retail propositions, driving
+                                                                            digitalisation forcefully at all levels and rolling out new measures and services, such as those
+                                                                            offered by SICOR Group.
+   El Patio del Espejo, a new avant-garde restaurant concept created inside
+   the Castellana flagship store (Madrid).",2020,"SR","EN","ELCORTEI","TRUE"
+"2020_SR_EN_ELCORTEI.pdf.3","ally in the business transformation quest, specifically the effort to adapt for
+                                                                                                                                 circular economy models and promote responsible purchasing. At El Corte Inglés we vouch
+    In 2020, we developed a new version of the Sustainable Product Guide for El Corte Inglés                                     for quality products with long useful lives. And we offer alteration and repair services to give
+    buyers and suppliers, which includes four programmes and more than 100 sustainability at-                                    the products we sell a second life.
+    tributes deemed to add value to a product at one or more stages of its lifecycle, thus reducing
+    its environmental footprint. Our guide has been endorsed by OCU, UNED, AECOC, Slow                                           To structure that effort, the Group has a Responsible Purchasing Committee and a number of
+    Fashion Next and Navarra University.                                                                                         sub-committees that have rolled out a host of initiatives based on the guidelines enshrined in
+                                                                                                                                 the 2021-2025 Sustainability and CSR Master Plan and the corporate commitments assumed
+    Sustainable product guide programmes                                                                                         by the Group (notably including the Fashion Pact). A specific roadmap has been devised for
+                                                                                                                                 each line of initiative. Some of the commitments assumed by the company and already set in
+                                                                                                                                 motion:
+                                                                                                                                                                                                                                                    2027
+                           LOCAL PRODUCTION:           CLOSING THE CIRCLE:                                                                                                                                                  2025
+                                                                                                                                                                                                                                          • 75% of cotton organic
+              produced nearby, thereby reducing        products made from recycled materials or                                                                                                  2023
+                                                                                                                                                                                                                  • 50% of cotton organic or recycled
+     transport and contributing to local economic      materials regenerated from subproducts from a
+                                                                                                                                                                        2022                                      or recycled
+         development (e.g.: products carrying the      same or different activity (e.g., flip flops made                                                                              • 50% of cotton under                               • 100% of polyester
+        MÑ Made in Spain label and food products       from tyre dust).                                                                        2021                                                                                       recycled
+                                                                                                                                                              • 40% of cotton under   BCI programme               • 75% of polyester
+                          with PDO or PGI seals).                                                                                                                                                               recycled
+                                                                                                                                    • 30% of cotton under     BCI programme           • 30% of cotton organic                             • 30% of wool recycled
+                                                                                                                                    BCI programme             • 25% of cotton organic or recycled                 • 20% of wool recycled  • 75% of viscose
+                                                                                                                                    • 10% of cotton organic   or recycled             • 40% of polyester          • 30% of viscose        certified
+                                                                                                                                    or recycled               • 30% of polyester      recycled                    certified               • 75% of denim made
+                                                                                                                                                              recycled                • 15% of wool recycled                              using water-saving
+                                                                                                                                    • 10% of polyester                                                            • 50% of denim made
+                                                                                                                                    recycled                  • 10% of wool recycled  • 20% of viscose            using water-saving      techniques
+                                                                                                                                                              • 10% of viscose        certified                   techniques              • Growth of 30% in
+                                                                                                                                    • 100% of buyers and
+                                                                                                                                    designers trained on      certified               • 30% of denim made         • Growth of 20% in      mono materials
+                                                                                                                                    recyclability ecodesign   • 15% of denim made     using water-saving          mono materials
+                                                                                 SUSTAINABLE DESIGN AND                                                       using water-saving      techniques
+                                                                                                                                    • 100% of buyers and
+                                                                                 PRODUCTION PROCESSES:                                                        techniques
+                                                                                                                                    designers trained on                              • Growth of 15% in
+                                                                                 products made using processes that minimise
+                                                                                                                                    packaging ecodesign       • Growth of 10% in      mono materials
+                                                                                 environmental impact during design, production
+                                                                                 or in-use phases (e.g. domestic appliances with                              mono materials          • 100% sustainability
+                                                                                 A+ or higher energy ratings).                                                                        attributes
+                                                                                 
+                                                                                                                                     ANNUALLY
+                     SUPPLY SOURCING:                                                                                                Minimum growth of 5% in SKUs with sustainability attributes.
+                     raw materials that come from a sustainable supply
+                                                                                                                                     FROM 2021
+                     source or programme (e.g.: FSC®-certified timber
+                                                                                                                                     20% of sales campaigns to include sustainable products.
+                     products, products made using BCI cotton).",2020,"SR","EN","ELCORTEI","TRUE"
+"2020_SR_EN_ESSELUNG.pdf.1","sup-
+port to people, by delivering the shopping.
+                                                           25,181
+                                                           SHOPPING THROUGH
+                                                           BOOK AND COLLECT
+                                                           53
+                                                           LOCKERS
+                                                           AVAILABLE
+AMICI VICINI. GETTING HELP SHOPPING HAS NEVER BEEN EASIER.
+28",2020,"SR","EN","ESSELUNG","TRUE"
+"2020_SR_EN_JOHNLEWI.pdf.1","to our founder John Spedan Lewis’s belief that the Partnership
+                                                                                                                           should support positive change in society, we’ve established several
+                                                                                                  70%
+                                                                                                                           new commitments in pursuit of his goal. This includes bringing
+         generated by the Waitrose &                                                                                       forward – by 15 years to 2035 – our ambition for our entire
+         Partners Foundation in 2020,                                                                                      operations to be net zero carbon.
+        supporting over 100 projects,
+                                                                                      of all targets set to help achieve a
+        benefiting 60,000 workers and                                                                                      We want John Lewis to lead the ‘made to last movement’, ensuring
+                                                                                     10% reduction in saturates, calories
+        their families in our Waitrose                                                                                     our products can be loved for longer. So, all key raw materials will
+                                                                                       and sugar across our own-brand
+           own-brand supply chains                                                                                         be from sustainable or recycled sources and all product categories
+                                                                                            products have been met
+                                                                                                                           will have a ‘buy back’ or ‘take back’ option by 2025.
+                                                                                                                           Waitrose will ensure the greenhouse gas emissions from UK farms
+                                                                                                                           supplying own-brand products are net zero by 2035. We will halve
+                                                                                                                           food waste in own-brand supply chains and help halve customers’
+                                                                                                                           food waste, both by 2030.
+                                                                                                                           Deep, long-standing relationships with our valued suppliers are
+                                                                                                                           critical to achieving our commitments. We’ll continue to work with
+                                                                                                                           them, and their farms and factories, to reduce our environmental
+                                                     90.7%
+                                                                                                                           footprint, to source raw materials responsibly, and to create a
+                                                                                                                           healthy working environment for all employees.
+                                                                                                                           I’m particularly proud of our community initiatives this year.
+                                                   own-brand fish and shellfish
+                                                                                                                           These included our unique Give A Little Love campaign, which
+                                                 comes from third-party verified
+                                                                                                                           raised £3 million for our charity partners FareShare and Home-
+                                                       responsible sources                                                                                                                                 SHARON WHITE
+                                                                                                                           Start. We donated £500,000 through the Your Partners Through
+                                                                                                                           It All Community Fund to support 240 organisations, including food
+                                                                                                                                                                                                           Partner & Chairman
+                                                                                                                           banks, women’s refuges and homeless charities and our John Lewis
+                                                                                                                           textile factory, Herbert Parkinson, made 12,000 protective medical
+                                                                                                                           scrubs for the NHS.
+                 £3m                                  100%                                              6
+                                                                                                                                                                                                           You can read more about our business, governance
+                                                                                                                           This report details many more examples and I would, once again,                 and the strategic review at
+                                                                                                                           like to thank Partners, suppliers and our customers for their                   www.johnlewispartnership.co.uk
+                                                                                                                           unwavering support.
+         raised by our Give A Little Love        Waitrose’s own-brand soya                Children’s healthy eating books
+            campaign, supporting over         footprint is certified sustainable,        created for a new online library
+             100,000 families in need              organic or with credits.                 called The Social Book Club
+1  J O H N L E W I S PA RTN ER S H I P PLC                                                                                                                                                             E T H I C S & S U S TA I N A B I L I T Y P R O G R E S S R E P O RT 2 0 2 0 / 21 2",2020,"SR","EN","JOHNLEWI","TRUE"
+"2020_SR_EN_MAGASIN1.pdf.1","to its vocation as a regional
+  brand and convinced of the                         - In order to comply with the Low Emission Zone (LEZ) regulations
+  effectiveness of local synergies, U                  and to be an actor of our CSR, U Log is intensifying the deployment
+  Enseigne also wishes to be a                         of its fleet of trucks using alternative energies to diesel:
+  partner of major cities that are                            • NGV technology is being deployed to serve urban and
+  committed to a Climate-Air-                                   suburban areas. The fleet of NGVs of our transporters will
+  Energy plan                                                   have 23 units by the end of 2020. The deployment of this
+  Territorial (PCAET). Partnerships                             fleet requires a better network of gas stations on the roads in
+  have been activated with                                      the regions, a deployment in which U Log is actively
+  Montpellier Méditerranée                                      participating in consultation with local authorities and gas
+  Métropole and with Rennes                                     suppliers. Three gas platforms have been deployed
+  Métropole since 2018 and with the                             to end 2020.
+  Grand Est region since 2020. An                             • Thanks to the work carried out with its transport partners,
+                                                                U Log has implemented experiments on less emissive
+  experiment has been launched since
+                                                                technologies (semi-trailers refrigerated with cryogenic gas
+  May with2019 the
+                                                                at the Fontenay le Comte site and biofuel diester at the
+  city of Nantes concerning time slots                          Nantes Atlantique site).
+  for urban deliveries; a report will be                      • via the agreement signed in February 2020 between
+  drawn up during the year. 2021.                               Système U and the Grand Est Region, U Log has
+                                                                committed to participating in the ""DINAMHySE"" project,
+  In addition to the expected                                   the objective of which is to support the
+  benefits in terms of GHG                                      development of a hydrogen industrial sector in the Grand Est
+  emissions reduction, this policy                              region and to generalize the use of hydrogen in the transport of
+  also contributes to the reduction                             goods.
+  of
+  emissions of air pollutants.                       - To achieve its objectives, U Log joined 2020the EVE program
+                                                       (Voluntary Commitments for
+                                                       The goal is21, to reduce transport-related GHG emissions by 6% by
+                                                       2022, in particular through the use of alternative energies and the
+                                                       reduction of empty miles.
+                                                              - A new Urban Distribution Platform (UDP) went into operation
+                                                                in March 2020 to serve some 30 U stores in Paris. Since
+                                                                December 2020, a second PDU has been used to serve Nice U
+                                                                stores; in the absence of a gas station nearby, the transport of
+                                                                the latter is currently operated by bio-fuel.
+                                                     - In February 2020, U Log initiated the first multimodal freight
+                                                       relations (rail, river) with the will to amplify this development on2021
+                                                       road links of more than km700 (North - South).
+    RESULTS & INDICATORS
+                                 81%
+                              of filling trucks
+                                                                                                               23
+                             delivery to stores
+                           -2pts vs 2019                                        95%
+                                                                     of tractors and road transporters
+                                                                                                         vehicles
+                 14,4 kg eq.CO 2                                        to the Euro tech standard 6
+                                                                                                            CNG transport
+                         emitted per m   3
+                         transported*.
+                  * New KPI - Data not2019 available
+26/ Non-financial performance statement 2020",2020,"SR","EN","MAGASIN1","TRUE"
+"2020_SR_EN_REWE####.pdf.1","if a supplier only converts a small amount of its total
+production.
+of its total production. At REWE Group in Austria, too, all palm oil and palm oil used in
+palm oil and palm kernel oil used in private label products is RSPO-certified and, with a few exceptions, is
+and, with a few exceptions, is purchased through the Segregation trading model.
+Transparency
+in
+the
+palm oil supply chain
+strengthen
+Since 2018, REWE Group has been supporting a cooperation project between the
+FONAP and the Malaysian non-governmental organization WildAsia. In the
+In the first phase of the project, selected smallholders in the region of
+Perak/Western Malaysia tested the applicability of FONAP additional criteria.
+These included, for example, not using highly hazardous pesticides or implementing strict
+pesticides or the implementation of strict greenhouse gas reduction targets.
+In this way, they were able to develop a better understanding of the importance of
+biodiversity and show that organic production is possible without the use of pesticides.
+without the use of pesticides - and can even produce higher yields.
+can even produce higher yields. In the second phase of the project, the
+farmers will be supported in tracking their produce between the end of 2019 and March
+to track their produce. An app will record the transactions
+of certified small producers and palm oil traders. The
+traceability of certified palm oil can thus be presented without gaps. At
+This is intended to give smallholders better access to the market - because
+transparency in the supply chain is an increasingly important requirement for the
+important requirement when selling the raw material.
+Cocoa
+A large part of the world's raw cocoa production originates in West Africa and is primarily
+in smallholder family farms. The cocoa farmers there have to contend with difficult economic
+economic conditions and often live with their families below the poverty line.
+poverty line. As a result, there is a lack of necessary investment funds and poor working conditions often
+prevail.
+poor working conditions prevail. This leads to exploitative forms of child labor.
+(for more information, see the section on child and
+Forced Labor).
+In the guideline
+for
+cocoa products, REWE Group has formulated the goal of sourcing all raw cocoa
+raw cocoa volumes for its private label brands from more sustainable producer structures",2020,"SR","EN","REWE####","TRUE"
+"2020_SR_EN_REWE####.pdf.2","costs"": They
+show what selected products really cost when certain ecological factors are taken into account.
+factors really cost. To this end, scientists at the University of Augsburg have calculated the",2020,"SR","EN","REWE####","TRUE"
+"2020_SR_EN_REWE####.pdf.3","the impact of nitrogen, greenhouse gases and energy along the supply chains into the",2020,"SR","EN","REWE####","TRUE"
+"2020_SR_EN_REWE####.pdf.4","of eight selected conventional and organic private label products (apple, banana, potato, etc.).
+products (apple, banana, potato, tomato, mozzarella, gouda, milk and mixed minced meat).
+minced meat). The exemplary evaluation of the conventionally produced
+shows that the selling price per kilogram increases by an average of around 62 percent.
+increase. For products from organic farming, the selling price increases by around 35
+percent. Measured against current selling prices, this corresponds to an average
+price increase of 2.30 euros per kilogram for conventionally produced products and 2.28
+euros per kilogram for organically produced products.
+Regionality
+and
+organic
+at
+Focus
+at
+REWE
+In 2020, REWE also focused on regionality and partnerships with local producers - especially against the
+especially against the backdrop of the Corona pandemic: under the motto ""Gutes.
+is so close. Fresh from your region"", the sales division promoted fresh products from the
+region. The campaign was disseminated online, via TV commercials and directly in the stores.
+(for more information on regionality at REWE Group, see the Regionality section).
+In addition, REWE explains the benefits of organic products for the environment, people and animals on
+products of the REWE Bio private label.
+products for the environment, people and animals (for more information, see the Organic section).
+GRI
+417-1
+Principles
+and
+Procedures
+for
+Product Labelling
+The products of REWE Group are labelled within the framework of legal requirements with regard to their
+their origin, composition and use - one example of this is the",2020,"SR","EN","REWE####","TRUE"
+"2020_SR_EN_SALLING#.pdf.1","and fair view of cial year 1 January to 31 December 2020. We have      included in the reporting. If a store is opened
+           The CSR report 2020 has been prepared in accord-             Salling Group’s impact on society               received recommendations on our CSR activities        during a reporting period, and the opening date
+           ance with the principles set out in the reporting        • 	the information given in the CSR report is      and reporting from our auditors Ernst & Young.        is after the reporting start date, the store will be
+           approach described on pages 103-111.                         consistent withthe accounting policies applied.                                                       reported with an annual consumption of zero. If a
+                                                                                                                        Delimitation                                          store has data during a reporting period, and the
+                                                                                                                        Entities included in the performance data in-         opening date is before the reporting start date, the
+                                                                    Brabrand, 19th of April 2021                        clude majority-owned subsidiaries/business units      store’s consumption will be estimated until data
+                                                                                                                        defined as companies that Salling Group owns or       acquisition is established. Estimates for stores with
+                                                                    SALLING GROUP                                       controls, including online stores, Salling depart-    missing data have been prepared on the basis of
+                                                                    CVR no. 35 95 47 16                                 ment stores, Bilka, føtex, Netto, BR, Wupti.com       yearly averages of comparable stores within the
+                                                                                                                        and Netto Germany and Poland. Properties owned        same retail chain and country. Estimates in føtex
+                                                                                                                        by Salling Group are excluded from both this          account for 9.41%, in Bilka 0.76%, in Salling 0.0%,
+                                                                                                                        and future reports, as are the franchises Carl’s Jr.  in Netto Denmark 15.0% and in BR 63.25% of total
+                                                                                                                        and Starbucks.                                        water consumption for each chain. In Netto out-
+                                                                                                                                                                              side Denmark, estimates in Germany account for
+                                                                    Per Bank                                            Energy data                                           0.0% and in Poland 0.0%
+                                                                    CEO                                                 Both majority-owned and controlled entities
+                                                                                                                        opened and closed during the financial year are in-   Waste data
+                                                                                                                        cluded in the reporting. If a store is opened during  Both majority-owned and controlled entities
+                                                                                                                        a reporting period, and the opening date is after     opened and closed during the financial year
+                                                                                                                        the reporting start date, the store will be reported  are included in the reporting. Some stores have
+                                                                                                                        with an annual consumption of zero. If a store has    reported based on estimates. Estimates in føtex
+                                                                                                                        data during a reporting period, and the opening       account for 1.92%, in Bilka 0.0%, in BR 20.21%,
+                                                                                                                        date is before the reporting start date, the store’s  in Salling 0.0% and in Netto Denmark 0.55% of
+                                                                                                                        consumption will be estimated until data acqui-       the total waste for each chain. In Netto outside
+                                                                                                                        sition is established. If a store is closed after the Denmark, estimates in Germany account for
+                                                                                                                        reporting start date, consumption will be reported    11.4%, in Poland 0.0%. For Netto Germany,
+                                                                                                                        until the store is actually closed, and estimated for waste has been calculated based on a total of
+                                                                                                                        the rest of the period. Estimates for stores with     80 weighing samples throughout 2018 in eight
+                                                                                                                        missing data have been prepared on the basis of       sample stores. The estimates for the remaining
+                                                                                                                        yearly averages of comparable stores within the       stores in Germany have been calculated on the
+                                                                                                                        same retail chain and country. Estimates in føtex     basis of the average amount of waste per unit of
+                                                                                                                        account for 1.48%, in Bilka 0.0%, in Salling 1.42%,   revenue for the selected stores. For stores in Netto
+                                                                                                                        in Netto Denmark 7.69% and in BR 42.91% of the        Poland, the waste calculation has been prepared
+                                                                                                                        total energy consumption for each chain. In Netto     on the basis of the exact number of containers
+                                                                                                                        outside Denmark, estimates in Germany account         multiplied by an average weight per container.
+                                                                                                                        for 0.0%, and in Poland 0.0%.
+     102 – CSR report 2020                                                                                                                                                                                              CSR report 2020 – 103",2020,"SR","EN","SALLING#","TRUE"
+"2020_SR_EN_TESCO###.pdf.1","spirit of Tesco:
+                                                                                helping as many people as possible get the food they need in a safe way.
+                                                                                Food for all                                              Supporting our colleagues
+                                                                                –– More than doubled the number of home                   –– Colleagues who become ill with COVID-19
+                                                                                   delivery slots available, with 1.5 million delivery       or need to self-isolate are paid from the
+                                                                                   and Click+Collect slots available each week.              first day of absence.
+                                                                                –– Priority access to online slots given to more          –– Clinically Extremely Vulnerable or high-risk
+                                                                                   than 850,000 vulnerable customers.                        Clinically Vulnerable colleagues advised to
+                                                                                –– NHS, emergency service and care workers                   remain at home at certain periods on full pay.
+                                                                                   given priority access to our stores.                   –– Thank you payments, totalling around £130m,
+                                                                                –– Introduced improved payment terms, paying                 paid to colleagues across the Group.
+                                                                                   nearly 2,000 suppliers immediately, instead of         –– Mental wellbeing tools, Headspace and
+                                                                                   the usual 14 days.                                        SilverCloud, made available to all our
+                                                                                                                                             300,000 UK colleagues.
+                                                                                Safety for everyone                                       Helping communities
+                                                                                –– Everyone entering our stores is required to            –– Over £60m worth of meals donated to food
+                                                                                   wear a face covering, unless they are exempt,             banks and charities, including our partners
+                                                                                   in line with government guidance.                         FareShare and the Trussell Trust.
+                                                                                –– Traffic light system introduced to help manage         –– Extended our partnership support to the
+                                                                                   the number of people in larger stores at any              British Red Cross by donating £2m.
+                                                                                   one time.                                              –– £8m donated to more than 10,000 local groups
+                                                                                –– Social distancing measures introduced in all our          through our Bags of Help community grants.
+                                                                                   stores, including floor markings, hand sanitisers      –– Nearly €1m donated in Ireland in support of
+                                                                                   and protective screens at our checkouts.                  local causes nationwide, and we made our
+                                                                                                                                             largest ever food donation to food banks
+                                                                                         Find out more at                                    in Central Europe.
+                                                                                         www.tescoplc.com/covid-19.
+Tesco PLC Little Helps Plan Report 2020/21                                                                                                                      www.tescoplc.com/sustainability",2020,"SR","EN","TESCO###","TRUE"
+"2020_SR_EN_THECOOPE.pdf.1","competition in the legal services industry.
+                                                                                                                                                            In order to achieve a level playing field when seeking to
+                                                                                                                                                           drive competition, the same regulatory oversight must be
+                                                                                                                                                                       applied to all legal service providers.
+ People
+                         Members of Parliament                                                                                                                  Apprenticeships can be a route to social mobility
+ Apprenticeships         and Peers
+                                                          Written submission to the All Party Apprenticeships Group Call for Evidence (July 2020).
+                                                                                                                                                                          and opportunities for individuals.
+                                                                                                                                                                   Lifelong skills are key to individual’s working
+ Lifelong Skills         Department for Education         Steve Murrells became a member of the DfE Business Engagement Forum.
+                                                                                                                                                                                   life progression.
+                         Government, DfE, DWP,
+                                                          Publication of research undertaken by Institute for Employment Research                               Apprenticeships can be a route to social mobility
+ Apprenticeships         Members of the House
+                                                          ‘Future Proofing Apprenticeships’ (November 2020).                                                              and opportunities for individuals.
+                         of Commons, NGOs
+                                                                                                                                                                                                                               78",2020,"SR","EN","THECOOPE","TRUE"
+"2021_SR_EN_NORGESGR.pdf.1","picture of the green-
+                                                                                                                                                                                                                   Climate
+   house gas emissions from our operations.                                                                                                                                                                       efficiency
+   We have therefore included the complete                                                                                                                                                                      doubled since
+                                                                                                                                                                                                                    2010
+   carbon footprint for waste, which accounts
+                                                   Climate efficiency, total 2010 og 2019–2020
+   for a significant proportion of the total emis- Tonnes CO2 per million NOK operating revenues
+   sions. Emission figures related to electric-    (adjusted for inflation)
+                                                   6
+   ity reflect consumption based on a Nordic
+   electricity mix. We prioritise measures to
+                                                   5
+   reduce our emissions and to produce our                                                                   About the climate accounts
+   own renewable energy, and therefore do not                                                                NorgesGruppen prepared and published verified carbon accounts in 2015 and 2016. In recent years, we
+                                                   4
+   purchase guarantees of origin for renewable                                                               have chosen to only use carbon accounts for internal control, but here we give an insight into emissions
+   energy or climate quotas to compensate for      3                                                         over the past two years and developments in climate efficiency since 2010. Carbon accounts for 2020
+   emissions. In the calculation of climate effi-                                                            have not been externally verified, but we will again publish verified carbon accounts as of 2021.
+   ciency, we have adjusted sales figures for      2
+                                                                                                             The carbon accounts cover the chains KIWI, MENY, SPAR and Joker, the wholesale business ASKO and the
+   inflation, otherwise climate efficiency would
+                                                   1
+                                                                                                             brand houses Unil, Bakehuset, Joh. Johannson Kaffe and MatBørsen.
+   be even higher.
+                                                   0
+                                                                       2010    2019       2020
+96                                                                               NORGESGRUPPEN'S ANNUAL AND SUSTAINABILITY REPORT 2020",2021,"SR","EN","NORGESGR","TRUE"

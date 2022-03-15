@@ -21,9 +21,11 @@ lapply(names(documents), function(x){
 corp_en <- corpus_subset(corp_mr, language == "EN")
 
 
+corp_en <- corpus(text_df)
+
 #split in paragraphs
 corp_mr_par <- corp_en %>%
-  corpus_reshape(.,to = "paragraphs")
+  corpus_segment(., pattern = "[A-Z]{5}")
 
 head(corp_mr_par)
 corp_mr_par %>% as_tibble() %>% write.csv(., "corpus_en.txt")
@@ -148,25 +150,129 @@ df_long <- df_slda %>% mutate(company = substr(document, 12,19),
   select(-other) %>%
   pivot_longer(., cols = sdg1:sdg17, names_to = "sdg", values_to = "theta")
 
+
+
 # do dictionary searches 
-
 # sdg dfm
-toks_nostop_comp <- toks_nostop %>% tokens_compound(pattern = "glob")
+#tokenize
+toks <- corp_en %>% 
+  tokens(remove_punct = TRUE, remove_symbols = TRUE, 
+         remove_numbers = TRUE, remove_url = TRUE) %>% 
+  tokens_select(min_nchar = 3) %>%
+  tokens_remove(stopwords("en")) %>%
+  tokens_remove(pattern = cl) %>%
+  tokens_compound(pattern = "glob")
 
-dfm_s <- dfm(toks_nostop_comp) %>% dfm_lookup(., dict) 
+#dfm on large dictionary
+dfm_s <- dfm(toks) %>% 
+  dfm_lookup(., dict) %>% 
+  dfm_weight(., scheme = "prop") #weighted frequencies corrects for different doc size
 head(dfm_s,25)
 dfm_sdg <- dfm_s %>% convert(., to = "data.frame")
 
-sdg <- dfm_sdg %>% pivot_longer(., cols = sdg01:gc, names_to = "theme", values_to = "no_of_words") %>%
+
+
+sdg <- dfm_sdg %>% pivot_longer(., cols = sdg01:cert, names_to = "theme", values_to = "value") %>%
   mutate(company = substr(doc_id, 12,19),
          year = substr(doc_id, 1,4),
          type = substr(doc_id, 6,7)) %>%
   left_join(.,company_names)
-p3 <- sdg %>% ggplot(aes(retailer, no_of_words, fill = theme)) +
+p3 <- sdg %>% arrange(country) %>% 
+  ggplot(aes(retailer, value, fill = theme)) +
   geom_col()
 p3 + coord_flip()
 
+# create a labeller
+theme_names <- list(
+  'sdg01'="No Poverty",
+  'sdg02'="Zero Hunger",
+  'sdg03'="Good Health and Well-Being",
+  'sdg04'="Quality Education",
+  'sdg05'="Gender Equality",
+  'sdg06'="Clear Water and Sanitation",
+  'sdg07'="Affordable and Clean Energy",
+  'sdg08'="Decent Work and Economic Growth",
+  'sdg09'="Industry, Innovation and Infrastructure",
+  'sdg10'="Reduced Inequalities",
+  'sdg11'="Sustainable Cities and Communities",
+  'sdg12'="Responsible Consumption and Production",
+  'sdg13'="Climate Action",
+  'sdg14'="Life Below Water",
+  'sdg15'="Life on Land",
+  'sdg16'="Peace, Justice & Strong Institutions",
+  'sdg17'="Partnership for the Goals",
+  'sdg'="SDG mentioning",
+  'gri'="GRI mentioning",
+  'cert'= "Certification mentioning"
+)
 
-p4 <- sdg %>% ggplot(aes(country, no_of_words)) +
+theme_labeller <- function(variable,value){
+  return(theme_names[value])
+}
+
+p4 <- sdg %>% mutate(theme = as.factor(theme), ownership = as.factor(ownership)) %>%
+  filter(ownership != "employee_cooperative") %>%
+  group_by(ownership, theme) %>%
+  summarize(score = mean(value)) %>%
+  ggplot(aes(ownership, score)) +
   geom_col()
-p4 + coord_flip() + facet_wrap(vars(theme))
+p4 + coord_flip() + facet_wrap(vars(theme), labeller=theme_labeller)
+
+
+
+temp <- sdg %>% mutate(theme = as.factor(theme), ownership = as.factor(ownership)) %>%
+  filter(ownership != "employee_cooperative") %>%
+  select(theme, value, ownership) %>%
+  group_by(ownership, theme) %>%
+  summarize(score = mean(value)) 
+
+temp %>%
+  ggplot(aes(ownership, theme)) +
+  geom_tile(aes(fill=score))
+
+sdg %>% filter(ownership != "employee_cooperative") %>%
+  ggplot(aes(theme, no_of_words)) +
+  geom_boxplot() +
+  facet_grid(vars(ownership))
+
+
+sdg_wide <- dfm_sdg %>% pivot_longer(., cols = sdg01:sdg17, names_to = "theme", values_to = "value") %>%
+  mutate(company = substr(doc_id, 12,19),
+         year = substr(doc_id, 1,4),
+         type = substr(doc_id, 6,7),
+         sdg= as.factor(ifelse(sdg>0,1,0))) %>%
+  left_join(.,company_names)
+
+  sdg_wide %>% ggplot(aes(theme, value)) +
+  geom_boxplot() +
+  facet_grid(vars(sdg))
+
+  
+  # number of reports mentioning sdgs
+mean(sdg_wide$sdg==1)
+mean(dfm_sdg$sdg>0) 
+sum(dfm_sdg$sdg>0)      
+
+
+# select corpus parts with SDG mentioning
+
+
+corp_en_par <- corpus_reshape(corp_en, to = "paragraphs")
+toks <- corp_en_par %>% 
+  tokens(remove_punct = TRUE, remove_symbols = TRUE, 
+         remove_numbers = TRUE, remove_url = TRUE) %>% 
+  tokens_select(min_nchar = 3) %>%
+  tokens_remove(stopwords("en")) %>%
+  tokens_remove(pattern = cl) %>%
+  tokens_compound(pattern = "glob")
+
+dfm_par <- dfm(toks) %>% dfm_remove(pattern = cl) %>%
+  dfm_lookup(., dict_small, valuetype = "fixed") 
+str(dfm_par)
+
+sdg_df <- dfm_par %>% convert(., to = "data.frame")
+sdg_texts <- sdg_df %>% filter(sdg>0) %>% select(doc_id) 
+
+sdg_corpus <- corp_en_par %>% convert(., to = "data.frame")
+sdg_corpus <- sdg_corpus %>% right_join(.,sdg_texts)
+write_excel_csv(sdg_corpus, "sdg_corpus.txt")
