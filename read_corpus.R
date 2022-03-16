@@ -28,5 +28,5 @@ text_df <- readtext(paste0('./docs/raw/*.txt'),
                     dvsep = "_")
 write_excel_csv(text_df, file = "text_df.txt")
 
-text_df$text %>% str_replace()
+
 

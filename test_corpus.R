@@ -6,6 +6,7 @@ library(seededlda)
 library(topicmodels)
 library(stringr)
 library(tidyverse)
+library(readr)
 
 #load bulk data
 load("mat_mr.Rda")
@@ -20,15 +21,30 @@ lapply(names(documents), function(x){
 #make corpus subset based on language
 corp_en <- corpus_subset(corp_mr, language == "EN")
 
+#read corpus from hashed text
+text_df <- read_csv("text_df.txt")
+
 
 corp_en <- corpus(text_df)
 
 #split in paragraphs
-corp_mr_par <- corp_en %>%
-  corpus_segment(., pattern = "[A-Z]{5}")
+corp_en_p <- corp_en %>% corpus_segment(pattern = "\\.\\n", valuetype = "regex") 
+docvars(corp_en_p)
+
+ndoc(corp_en_p_min)
+
+corp_en_p_min <- corpus_trim(corp_en, what = "sentences", min_ntoken = 5)
+head(corp_en_p_min)
+corpus_segment(corp_en_p_min, pattern = "\\.\\n", valuetype = "regex")
+
+ndoc(corp_mr_par_min)
+corp_par_min <- corpus_segment(corp_mr_par_min, pattern = "##") 
+
+str(corp_mr_par_min)
+docvars(corp_mr_par)
 
 head(corp_mr_par)
-corp_mr_par %>% as_tibble() %>% write.csv(., "corpus_en.txt")
+corp_mr_par %>% convert(.,to="data.frame") %>% write_excel_csv(., "corpus_en_p.txt")
 docvars(corp_mr_par) %>% group_by(company, year) %>% summarize()
 
 #make a list of unique company designators
