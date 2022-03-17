@@ -21,6 +21,7 @@ lapply(names(documents), function(x){
 #make corpus subset based on language
 corp_en <- corpus_subset(corp_mr, language == "EN")
 
+#BEGIN VANAF HIER
 #read corpus from hashed text
 text_df <- read_csv("text_df.txt")
 
