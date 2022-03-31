@@ -22,35 +22,25 @@ lapply(names(documents), function(x){
 corp_en <- corpus_subset(corp_mr, language == "EN")
 
 #BEGIN VANAF HIER
-#read corpus from hashed text
-text_df <- read_csv("text_df.txt")
+#read texts and make corpus from the hashed text
+texts <- read_csv("texts.txt")
+corp_en <- corpus(texts) 
+ndoc(corp_en)
+textstat_summary(corp_en)
 
+# split corpus into segments based on the ## paragraph marker
+corp_p <- corpus_segment(corp_en, pattern = "##") 
+  
+str(corp_p)
+docvars(corp_p)
 
-corp_en <- corpus(text_df)
-
-#split in paragraphs
-corp_en_p <- corp_en %>% corpus_segment(pattern = "\\.\\n", valuetype = "regex") 
-docvars(corp_en_p)
-
-ndoc(corp_en_p_min)
-
-corp_en_p_min <- corpus_trim(corp_en, what = "sentences", min_ntoken = 5)
-head(corp_en_p_min)
-corpus_segment(corp_en_p_min, pattern = "\\.\\n", valuetype = "regex")
-
-ndoc(corp_mr_par_min)
-corp_par_min <- corpus_segment(corp_mr_par_min, pattern = "##") 
-
-str(corp_mr_par_min)
-docvars(corp_mr_par)
-
-head(corp_mr_par)
-corp_mr_par %>% convert(.,to="data.frame") %>% write_excel_csv(., "corpus_en_p.txt")
-docvars(corp_mr_par) %>% group_by(company, year) %>% summarize()
+corp_p %>% convert(.,to="data.frame") %>% write_excel_csv(., "corpus_en_p.txt")
+docvars(corp_p) %>% group_by(company, year) %>% summarize()
 
 #make a list of unique company designators
 company_list <- unique(docvars(corp_en)) %>% select(company)
 write_excel_csv(company_list, "companylist.txt")
+unique(company_names$retailer)
 
 #read company names
 library(readxl)
@@ -73,7 +63,7 @@ cl <- append(cl, words)
 
 
 #tokenize
-toks_nostop <- corp_mr_par %>% 
+toks_nostop <- corp_p %>% 
   tokens(remove_punct = TRUE, remove_symbols = TRUE, 
          remove_numbers = TRUE, remove_url = TRUE) %>% 
   tokens_select(min_nchar = 3) %>%
@@ -95,8 +85,6 @@ dfm_stem <- dfm_wordstem(dfm)
 #convert corpus to paragraphs
 #https://www.youtube.com/watch?v=4YyoMGv1nkc
 
-
-
 # compute document variables
 nt <- ntoken(dfm_stem) %>% as.data.frame() %>% rownames_to_column() 
 colnames(nt) <- c("document", "number")
@@ -104,7 +92,8 @@ nt <- nt %>% mutate(company = substr(document, 12,19)) %>%
   left_join(.,company_names) 
 nt %>% group_by(retailer) %>% summarize(no_of_tokens = sum(number))
 
-
+unique(theta$company)
+unique(company_names$company)
 load("lda.Rdata")
 #write results to data frame
 theta <- as.data.frame(lda$theta)
@@ -112,16 +101,16 @@ theta <- tibble::rownames_to_column(theta, "document")
 theta <- theta %>% mutate(company = substr(document, 12,19),
        year = substr(document, 1,4),
        type = substr(document, 6,7)) %>%
-  left_join(., company_names) %>%
-rename(., "social_supply_chain" = topic7,
-       "customer_store" = topic8,
-       "waste_emission" = topic1,
-       "employee_relations" = topic2,
+  left_join(., company_names, by = c("company" = "company")) %>%
+rename(., "social_supply_chain" = topic5,
+       "customer_store" = topic1,
+       "waste_emission" = topic6,
+       "employee_relations" = topic7,
        "finance_accounting" = topic4,
-       "charity" = topic6,
-       "governance" = topic9,
-       "risk" = topic5,
-       "product_brand_certification" = topic3)
+       "charity" = topic2,
+       "governance" = topic3,
+       "risk" = topic8,
+       "product_brand_certification" = topic9)
 
 #theta[which(is.na(theta$retailer)==TRUE),]
 
@@ -158,15 +147,6 @@ json <- createJSON(phi = lda$phi,
                    term.frequency = quanteda::featfreq(dfm_stem))
 serVis(json, out.dir = 'vis', 
        open.browser = T)
-
-  
-df_long <- df_slda %>% mutate(company = substr(document, 12,19),
-                              year = substr(document, 1,4),
-                              type = substr(document, 6,7)) %>%
-  mutate(company = str_remove(company, pattern = "#+")) %>%
-  select(-other) %>%
-  pivot_longer(., cols = sdg1:sdg17, names_to = "sdg", values_to = "theta")
-
 
 
 # do dictionary searches 

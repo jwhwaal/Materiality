@@ -8,6 +8,7 @@ library(stringr)
 library(tidyverse)
 # LDA
 a2 <- Sys.time()
+set.seed(1234, sample.kind = "Rounding")
 lda <- textmodel_lda(dfm_stem, k = 9, verbose = T, alpha = 1)
 summary(lda)
 df_lda <- as.data.frame(lda$theta) %>% 
