@@ -164,28 +164,31 @@ sdg17=c("capacity building","civil society partnerships","communication technolo
         "multi-stakeholder partnerships","poverty eradication",
         "public-private partnerships","science cooperation agreements",
         "technology cooperation agreements","technology transfer",
-        "weighted tariff average","women entrepreneurs","world trade organization")
+        "weighted tariff average","women entrepreneurs","world trade organization"),
+sdg = c("sustainable development goals", "sdg", "sdgs")
 )
 dict<- dictionary(sdgthesaurus)
 
 
 #in quanteda
-sdg_small = list(sdg1=c("no poverty", "end poverty", "poverty"),
-                 sdg2=c("end hunger", "hunger", "food security", "improved nutrition", "sustainable agriculture"),
-                 sdg3=c("good health", "well-being", "healthy lives"),
-                 sdg4=c("quality education", "inclusive education", "lifelong learning"),
-                 sdg5=c("gender equality", "empower women and girls"),
-                 sdg6=c("water and sanitation", "clean water", "sanitation"),
-                 sdg7=c("sustaianble energy", "affordable energy", "clean energy", "reliable energy"),
-                 sdg8=c("sustainable economic growth", "decent work", "inclusive growth", "economic growth"),
-                 sdg9=c("resilient infrastructure","inclusive industrialization", "sustaianble industrialization", "innovation"),
+sdg_small = list(sdg01=c("no poverty", "end poverty", "poverty"),
+                 sdg02=c("end hunger", "hunger", "food security", "improved nutrition", "sustainable agriculture"),
+                 sdg03=c("good health", "well-being", "healthy lives"),
+                 sdg04=c("quality education", "inclusive education", "lifelong learning"),
+                 sdg05=c("gender equality", "empower women and girls"),
+                 sdg06=c("water and sanitation", "clean water", "sanitation"),
+                 sdg07=c("sustaianble energy", "affordable energy", "clean energy", "reliable energy"),
+                 sdg08=c("sustainable economic growth", "decent work", "inclusive growth", "economic growth"),
+                 sdg09=c("resilient infrastructure","inclusive industrialization", "sustaianble industrialization", "innovation"),
                  sdg10=c("reduced inequalities"),
                  sdg11=c("sustainable cities"),
                  sdg12=c("sustainable consumption", "responsible consumption", "sustainable production"),
                  sdg13=c("climate action", "climate change", "climate change impact"),
                  sdg15=c("life below water"),
                  sdg16=c("life on land", "biodiversity loss", "resilient ecosystems", "land degradation","desertification"),
-                 sdg17=c("peace", "justice", "strong institutions"))
+                 sdg17=c("peace", "justice", "strong institutions"),
+                 sdg = c("sustainable development goals", "sdg", "sdgs")
+                 )
 
-dict = dictionary(sdg_small)
+dict_small = dictionary(sdg_small)
 

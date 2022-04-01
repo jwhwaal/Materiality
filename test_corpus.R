@@ -80,6 +80,7 @@ head(dfm, 25)
 
 dfm_stem <- dfm_wordstem(dfm)
 
+
 #LDA model
 #convert corpus to paragraphs
 #https://www.youtube.com/watch?v=4YyoMGv1nkc
@@ -96,6 +97,8 @@ unique(company_names$company)
 load("lda.Rdata")
 #write results to data frame
 theta <- as.data.frame(lda$theta)
+theta %>% filter(is.na(retailer))
+
 theta <- tibble::rownames_to_column(theta, "document")
 theta <- theta %>% mutate(company = substr(document, 12,19),
        year = substr(document, 1,4),
@@ -159,7 +162,7 @@ toks <- corp_en %>%
   tokens_remove(pattern = cl) %>%
   tokens_compound(pattern = "glob")
 
-#dfm on large dictionary
+#dfm on large dictionary, weighted
 dfm_s <- dfm(toks) %>% 
   dfm_lookup(., dict) %>% 
   dfm_weight(., scheme = "prop") #weighted frequencies corrects for different doc size
@@ -168,7 +171,7 @@ dfm_sdg <- dfm_s %>% convert(., to = "data.frame")
 
 
 
-sdg <- dfm_sdg %>% pivot_longer(., cols = sdg01:cert, names_to = "theme", values_to = "value") %>%
+sdg <- dfm_sdg %>% pivot_longer(., cols = sdg01:sdg17, names_to = "theme", values_to = "value") %>%
   mutate(company = substr(doc_id, 12,19),
          year = substr(doc_id, 1,4),
          type = substr(doc_id, 6,7)) %>%
@@ -177,6 +180,8 @@ p3 <- sdg %>% arrange(country) %>%
   ggplot(aes(retailer, value, fill = theme)) +
   geom_col()
 p3 + coord_flip()
+
+sdg %>% filter(is.na(retailer))
 
 # create a labeller
 theme_names <- list(
@@ -214,38 +219,36 @@ p4 <- sdg %>% mutate(theme = as.factor(theme), ownership = as.factor(ownership))
   geom_col()
 p4 + coord_flip() + facet_wrap(vars(theme), labeller=theme_labeller)
 
-
-
-temp <- sdg %>% mutate(theme = as.factor(theme), ownership = as.factor(ownership)) %>%
+p5 <- sdg %>% mutate(theme = as.factor(theme), country = as.factor(country)) %>%
   filter(ownership != "employee_cooperative") %>%
-  select(theme, value, ownership) %>%
-  group_by(ownership, theme) %>%
-  summarize(score = mean(value)) 
+  group_by(country, theme) %>%
+  summarize(score = mean(value)) %>%
+  ggplot(aes(country, score)) +
+  geom_col()
+p5 + coord_flip() + facet_wrap(vars(theme), labeller=theme_labeller)
 
-temp %>%
-  ggplot(aes(ownership, theme)) +
-  geom_tile(aes(fill=score))
+p6 <- sdg %>% mutate(theme = as.factor(theme), format = as.factor(format)) %>%
+  filter(ownership != "employee_cooperative") %>%
+  group_by(format, theme) %>%
+  summarize(score = mean(value)) %>%
+  ggplot(aes(format, score)) +
+  geom_col()
+p6 + coord_flip() + facet_wrap(vars(theme), labeller=theme_labeller)
 
-sdg %>% filter(ownership != "employee_cooperative") %>%
-  ggplot(aes(theme, no_of_words)) +
-  geom_boxplot() +
-  facet_grid(vars(ownership))
 
-
-sdg_wide <- dfm_sdg %>% pivot_longer(., cols = sdg01:sdg17, names_to = "theme", values_to = "value") %>%
+sdg_wide <- dfm_sdg %>% mutate(s = as.factor(ifelse(sdg > 0, 1, 0))) %>%
+  pivot_longer(., cols = sdg01:sdg, names_to = "theme", values_to = "value") %>%
   mutate(company = substr(doc_id, 12,19),
          year = substr(doc_id, 1,4),
-         type = substr(doc_id, 6,7),
-         sdg= as.factor(ifelse(sdg>0,1,0))) %>%
+         type = substr(doc_id, 6,7)) %>%
   left_join(.,company_names)
 
-  sdg_wide %>% ggplot(aes(theme, value)) +
-  geom_boxplot() +
-  facet_grid(vars(sdg))
-
+  sdg_wide %>% ggplot(aes(theme, value, fill=s)) +
+  geom_boxplot(position = "dodge") 
+plot(sort(dfm_sdg$sdg))
   
   # number of reports mentioning sdgs
-mean(sdg_wide$sdg==1)
+mean(sdg_wide$s==1)
 mean(dfm_sdg$sdg>0) 
 sum(dfm_sdg$sdg>0)      
 
@@ -269,3 +272,29 @@ sdg_texts <- sdg_df %>% filter(sdg>0) %>% select(doc_id)
 sdg_corpus <- corp_p %>% convert(., to = "data.frame")
 sdg_corpus <- sdg_corpus %>% right_join(.,sdg_texts)
 write_excel_csv(sdg_corpus, "sdg_corpus.txt")
+
+dfm_s <- sdg_corpus %>% corpus() %>% 
+  tokens(remove_punct = TRUE, remove_symbols = TRUE, 
+                                 remove_numbers = TRUE, remove_url = TRUE) %>% 
+  tokens_select(min_nchar = 3) %>%
+  tokens_remove(stopwords("en")) %>%
+  tokens_remove(pattern = cl) %>%
+  tokens_compound(pattern = "glob") %>%
+  dfm() %>% dfm_lookup(.,tone) %>% 
+  dfm_weight(scheme = c("prop")) %>%
+  convert(., to = "data.frame")
+
+sdg_tone <- dfm_s %>% pivot_longer(., cols = intention:target, names_to = "tone", values_to = "value") %>%
+  mutate(company = substr(doc_id, 12,19),
+         year = substr(doc_id, 1,4),
+         type = substr(doc_id, 6,7)) %>%
+  left_join(.,company_names)
+
+scores <- sdg_tone %>% filter(type == "SR") %>%
+  group_by(retailer, tone) %>%
+  summarize(score = sum(value), retailer = retailer, format = format) 
+
+scores %>%
+  ggplot(aes(tone, score, fill = retailer)) + geom_col(position = 'dodge')
+
+
