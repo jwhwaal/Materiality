@@ -26,21 +26,20 @@ corp_en <- corpus_subset(corp_mr, language == "EN")
 texts <- read_csv("texts.txt")
 corp_en <- corpus(texts) 
 ndoc(corp_en)
-textstat_summary(corp_en)
+t <- textstat_summary(corp_en)
 
 # split corpus into segments based on the ## paragraph marker
 corp_p <- corpus_segment(corp_en, pattern = "##") 
-  
+head(corp_p)
 str(corp_p)
 docvars(corp_p)
 
-corp_p %>% convert(.,to="data.frame") %>% write_excel_csv(., "corpus_en_p.txt")
+corp_p %>% convert(.,to="data.frame") %>% write_excel_csv(., "corpus_p.txt")
 docvars(corp_p) %>% group_by(company, year) %>% summarize()
 
 #make a list of unique company designators
 company_list <- unique(docvars(corp_en)) %>% select(company)
 write_excel_csv(company_list, "companylist.txt")
-unique(company_names$retailer)
 
 #read company names
 library(readxl)
@@ -60,7 +59,7 @@ words <- c("*-time", "*-timeUpdated", "GMT", "BST", "*.com", "ltd", "group",
            "france", "swiss", "belgian", "virya","norgesgruppen",
            "baltic", "kesko")
 cl <- append(cl, words)
-
+unique(company_names$retailer)
 
 #tokenize
 toks_nostop <- corp_p %>% 
@@ -252,10 +251,7 @@ sum(dfm_sdg$sdg>0)
 
 
 # select corpus parts with SDG mentioning
-
-
-corp_en_par <- corpus_reshape(corp_en, to = "paragraphs")
-toks <- corp_en_par %>% 
+toks <- corp_p %>% 
   tokens(remove_punct = TRUE, remove_symbols = TRUE, 
          remove_numbers = TRUE, remove_url = TRUE) %>% 
   tokens_select(min_nchar = 3) %>%
@@ -270,6 +266,6 @@ str(dfm_par)
 sdg_df <- dfm_par %>% convert(., to = "data.frame")
 sdg_texts <- sdg_df %>% filter(sdg>0) %>% select(doc_id) 
 
-sdg_corpus <- corp_en_par %>% convert(., to = "data.frame")
+sdg_corpus <- corp_p %>% convert(., to = "data.frame")
 sdg_corpus <- sdg_corpus %>% right_join(.,sdg_texts)
 write_excel_csv(sdg_corpus, "sdg_corpus.txt")
